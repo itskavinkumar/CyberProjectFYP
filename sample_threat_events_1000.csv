@@ -1,0 +1,1001 @@
+Date,Threat_Type,Severity,Source,Location,Count,Description
+2025-01-01,Malware,Critical,DNS-Sinkhole,Global,90,Emotet trojan loader payload intercepted by EDR
+2025-01-01,Phishing,Medium,EDR-Agent,Latin America,172,Spear-phishing email with malicious macro attachment
+2025-01-01,Data Breach,Low,Honeypot-Sensor,Global,22,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-02,Malware,Critical,Honeypot-Sensor,Western Europe,51,Obfuscated PowerShell script executing memory-only injection
+2025-01-02,Ransomware,Low,Honeypot-Sensor,Middle East,35,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-02,DDoS,Low,Cloud-Scrubbing-Center,Middle East,86,Volumetric UDP amplification saturation hitting edge border routers
+2025-01-02,Brute Force,Medium,VPN-Concentrator,Western Europe,66,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-02,SQL Injection,Medium,Audit-Log,Middle East,43,SQLmap automated enumeration probing public portal parameters
+2025-01-02,Malware,High,Audit-Log,Middle East,58,Obfuscated PowerShell script executing memory-only injection
+2025-01-03,Botnet,Medium,Email-Gateway,Middle East,68,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-01-03,SQL Injection,Medium,Audit-Log,Latin America,10,SQLmap automated enumeration probing public portal parameters
+2025-01-03,Ransomware,Low,SIEM-Collector,Global,26,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-03,Botnet,High,Firewall-IDS,Europe,128,Automated distributed vulnerability scan across public subnets
+2025-01-04,DDoS,Low,WAF-Gateway,East Asia,279,SYN flood targeting web application frontend load balancers
+2025-01-05,SQL Injection,Low,WAF-Gateway,East Asia,20,Automated blind SQL injection payloads against public /api/search endpoint
+2025-01-05,Ransomware,High,Firewall-IDS,Europe,7,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-01-05,Ransomware,High,EDR-Agent,East Asia,29,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-05,Malware,Medium,Audit-Log,Europe,79,Cobalt Strike beacon detected on internal workstation
+2025-01-05,DDoS,Low,Audit-Log,North America,248,DNS reflection amplification disruption spike on primary nameservers
+2025-01-05,Phishing,Critical,WAF-Gateway,Asia-Pacific,41,Spear-phishing email with malicious macro attachment
+2025-01-06,Brute Force,Low,WAF-Gateway,East Asia,178,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-06,Brute Force,Low,VPN-Concentrator,Europe,159,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-06,Brute Force,High,Audit-Log,Western Europe,107,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-07,Phishing,Low,DNS-Sinkhole,Asia-Pacific,133,Credential harvesting campaign targeting corporate Office365
+2025-01-07,Ransomware,Medium,Cloud-Scrubbing-Center,Asia-Pacific,20,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-01-07,Brute Force,Critical,Audit-Log,Western Europe,174,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-07,Botnet,Medium,Audit-Log,Latin America,167,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-01-07,SQL Injection,High,DNS-Sinkhole,Latin America,39,Automated blind SQL injection payloads against public /api/search endpoint
+2025-01-07,Data Breach,Critical,Email-Gateway,Western Europe,19,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-07,Brute Force,Low,VPN-Concentrator,Middle East,98,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-07,Brute Force,Medium,EDR-Agent,Western Europe,44,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-08,Phishing,Low,Cloud-Scrubbing-Center,Global,164,Credential harvesting campaign targeting corporate Office365
+2025-01-08,DDoS,Medium,Cloud-Scrubbing-Center,Western Europe,262,Volumetric UDP amplification saturation hitting edge border routers
+2025-01-08,Brute Force,Medium,Firewall-IDS,North America,117,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-08,Brute Force,Medium,Firewall-IDS,East Asia,154,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-08,DDoS,High,SIEM-Collector,North America,302,SYN flood targeting web application frontend load balancers
+2025-01-08,Botnet,Medium,SIEM-Collector,Western Europe,77,Zombie node synchronizing lateral probing commands
+2025-01-09,Ransomware,High,Audit-Log,Latin America,44,Volume shadow copy deletion command flagged on file server
+2025-01-09,Malware,High,Firewall-IDS,North America,39,Emotet trojan loader payload intercepted by EDR
+2025-01-09,Data Breach,Low,Honeypot-Sensor,Latin America,42,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-09,SQL Injection,Critical,Firewall-IDS,Global,62,SQLmap automated enumeration probing public portal parameters
+2025-01-09,Ransomware,Low,Firewall-IDS,East Asia,24,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-10,Phishing,High,Audit-Log,Middle East,145,Executive impersonation and wire transfer spoofing alert
+2025-01-10,Ransomware,High,Firewall-IDS,North America,26,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-10,Botnet,Medium,Honeypot-Sensor,Western Europe,53,Automated distributed vulnerability scan across public subnets
+2025-01-11,Malware,Medium,VPN-Concentrator,Middle East,66,Cobalt Strike beacon detected on internal workstation
+2025-01-11,Data Breach,Medium,VPN-Concentrator,Middle East,12,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-11,Data Breach,Low,SIEM-Collector,Global,15,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-01-11,Brute Force,Medium,Honeypot-Sensor,Western Europe,101,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-11,Malware,Medium,SIEM-Collector,Latin America,51,Cobalt Strike beacon detected on internal workstation
+2025-01-11,Botnet,Medium,VPN-Concentrator,Latin America,21,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-01-11,Brute Force,Medium,Email-Gateway,Asia-Pacific,27,Kerberoasting and domain controller password brute force probe
+2025-01-11,Data Breach,Medium,Honeypot-Sensor,Western Europe,13,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-11,Brute Force,Medium,Cloud-Scrubbing-Center,Asia-Pacific,67,Kerberoasting and domain controller password brute force probe
+2025-01-12,Botnet,Low,SIEM-Collector,Latin America,97,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-01-12,Botnet,High,WAF-Gateway,Latin America,101,Zombie node synchronizing lateral probing commands
+2025-01-12,SQL Injection,High,Honeypot-Sensor,North America,13,UNION-based database extract attempts detected and scrubbed by WAF
+2025-01-12,Phishing,Medium,Email-Gateway,Global,156,Spear-phishing email with malicious macro attachment
+2025-01-12,Brute Force,Low,Honeypot-Sensor,North America,161,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-12,Malware,High,SIEM-Collector,Middle East,46,Cobalt Strike beacon detected on internal workstation
+2025-01-12,Botnet,High,Audit-Log,East Asia,173,Zombie node synchronizing lateral probing commands
+2025-01-12,Botnet,Critical,EDR-Agent,Europe,75,Zombie node synchronizing lateral probing commands
+2025-01-12,Ransomware,Critical,SIEM-Collector,North America,23,Volume shadow copy deletion command flagged on file server
+2025-01-13,Ransomware,Medium,VPN-Concentrator,Global,22,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-13,Botnet,Medium,SIEM-Collector,Middle East,133,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-01-13,Phishing,Critical,Email-Gateway,Asia-Pacific,119,Spear-phishing email with malicious macro attachment
+2025-01-13,Ransomware,High,Audit-Log,Europe,38,Volume shadow copy deletion command flagged on file server
+2025-01-13,Data Breach,Medium,Honeypot-Sensor,Asia-Pacific,4,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-14,Brute Force,High,SIEM-Collector,North America,102,Kerberoasting and domain controller password brute force probe
+2025-01-14,Ransomware,Medium,VPN-Concentrator,Europe,44,Volume shadow copy deletion command flagged on file server
+2025-01-14,SQL Injection,Low,SIEM-Collector,North America,35,UNION-based database extract attempts detected and scrubbed by WAF
+2025-01-14,Botnet,Medium,SIEM-Collector,Western Europe,139,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-01-14,Brute Force,Low,WAF-Gateway,Western Europe,146,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-14,Brute Force,Low,Audit-Log,Western Europe,60,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-15,Botnet,Critical,Honeypot-Sensor,East Asia,168,Zombie node synchronizing lateral probing commands
+2025-01-15,SQL Injection,Medium,Firewall-IDS,Latin America,72,UNION-based database extract attempts detected and scrubbed by WAF
+2025-01-15,Ransomware,Medium,Firewall-IDS,North America,10,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-01-15,Botnet,Medium,Cloud-Scrubbing-Center,North America,68,Zombie node synchronizing lateral probing commands
+2025-01-15,DDoS,Low,SIEM-Collector,Europe,53,SYN flood targeting web application frontend load balancers
+2025-01-15,Brute Force,Medium,VPN-Concentrator,North America,158,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-15,Phishing,High,EDR-Agent,Western Europe,126,Executive impersonation and wire transfer spoofing alert
+2025-01-16,Brute Force,Low,SIEM-Collector,Global,115,Kerberoasting and domain controller password brute force probe
+2025-01-16,Botnet,Low,Email-Gateway,East Asia,110,Automated distributed vulnerability scan across public subnets
+2025-01-16,DDoS,Medium,Firewall-IDS,Asia-Pacific,187,DNS reflection amplification disruption spike on primary nameservers
+2025-01-16,Malware,Critical,Email-Gateway,Latin America,38,Obfuscated PowerShell script executing memory-only injection
+2025-01-16,Phishing,High,EDR-Agent,North America,16,Spear-phishing email with malicious macro attachment
+2025-01-17,SQL Injection,Medium,Honeypot-Sensor,Europe,65,SQLmap automated enumeration probing public portal parameters
+2025-01-17,Phishing,Medium,Email-Gateway,Latin America,16,Credential harvesting campaign targeting corporate Office365
+2025-01-17,Botnet,Medium,Audit-Log,Global,112,Zombie node synchronizing lateral probing commands
+2025-01-17,DDoS,High,SIEM-Collector,Middle East,350,Volumetric UDP amplification saturation hitting edge border routers
+2025-01-17,Ransomware,Low,Honeypot-Sensor,North America,12,Volume shadow copy deletion command flagged on file server
+2025-01-18,Ransomware,Medium,EDR-Agent,North America,13,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-01-18,DDoS,High,Email-Gateway,Global,231,SYN flood targeting web application frontend load balancers
+2025-01-18,SQL Injection,Medium,DNS-Sinkhole,Global,8,Automated blind SQL injection payloads against public /api/search endpoint
+2025-01-18,Phishing,Medium,Email-Gateway,Middle East,58,Executive impersonation and wire transfer spoofing alert
+2025-01-18,Malware,High,Audit-Log,East Asia,46,Emotet trojan loader payload intercepted by EDR
+2025-01-18,SQL Injection,Medium,VPN-Concentrator,Middle East,83,SQLmap automated enumeration probing public portal parameters
+2025-01-18,Malware,Medium,Firewall-IDS,Europe,93,Emotet trojan loader payload intercepted by EDR
+2025-01-18,Ransomware,Medium,Honeypot-Sensor,Global,18,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-01-18,Data Breach,Low,SIEM-Collector,Latin America,17,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-19,Malware,Medium,Email-Gateway,Western Europe,47,Emotet trojan loader payload intercepted by EDR
+2025-01-19,Data Breach,Low,SIEM-Collector,East Asia,1,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-01-19,Brute Force,Medium,WAF-Gateway,Western Europe,173,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-19,Data Breach,Medium,Cloud-Scrubbing-Center,East Asia,13,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-19,Botnet,Low,SIEM-Collector,Europe,33,Automated distributed vulnerability scan across public subnets
+2025-01-19,Botnet,High,WAF-Gateway,Western Europe,53,Zombie node synchronizing lateral probing commands
+2025-01-19,Data Breach,High,SIEM-Collector,Europe,9,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-01-19,Brute Force,High,VPN-Concentrator,Europe,96,Kerberoasting and domain controller password brute force probe
+2025-01-20,Malware,Low,Email-Gateway,East Asia,29,Cobalt Strike beacon detected on internal workstation
+2025-01-20,Brute Force,Critical,VPN-Concentrator,Global,94,Kerberoasting and domain controller password brute force probe
+2025-01-20,Ransomware,Medium,DNS-Sinkhole,Middle East,8,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-20,Botnet,Medium,DNS-Sinkhole,Europe,99,Zombie node synchronizing lateral probing commands
+2025-01-20,Phishing,High,Audit-Log,East Asia,166,Credential harvesting campaign targeting corporate Office365
+2025-01-21,Botnet,Medium,Audit-Log,East Asia,57,Zombie node synchronizing lateral probing commands
+2025-01-21,Botnet,Low,Firewall-IDS,East Asia,43,Automated distributed vulnerability scan across public subnets
+2025-01-21,Brute Force,High,Email-Gateway,Middle East,175,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-21,Malware,Medium,Email-Gateway,East Asia,20,Obfuscated PowerShell script executing memory-only injection
+2025-01-21,Data Breach,High,VPN-Concentrator,Europe,32,Privileged service account credential abuse and bulk table export
+2025-01-21,DDoS,Medium,Audit-Log,Middle East,165,DNS reflection amplification disruption spike on primary nameservers
+2025-01-21,Botnet,Medium,Firewall-IDS,North America,113,Zombie node synchronizing lateral probing commands
+2025-01-21,SQL Injection,Medium,DNS-Sinkhole,East Asia,20,Automated blind SQL injection payloads against public /api/search endpoint
+2025-01-21,Phishing,Low,DNS-Sinkhole,East Asia,156,Spear-phishing email with malicious macro attachment
+2025-01-21,DDoS,Low,EDR-Agent,Asia-Pacific,21,SYN flood targeting web application frontend load balancers
+2025-01-21,Ransomware,Medium,Email-Gateway,Latin America,20,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-01-22,Malware,Medium,DNS-Sinkhole,Europe,80,Obfuscated PowerShell script executing memory-only injection
+2025-01-22,Brute Force,Critical,Honeypot-Sensor,North America,175,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-22,Botnet,High,WAF-Gateway,Middle East,67,Zombie node synchronizing lateral probing commands
+2025-01-22,SQL Injection,Low,Email-Gateway,Middle East,33,Automated blind SQL injection payloads against public /api/search endpoint
+2025-01-22,DDoS,High,Cloud-Scrubbing-Center,Latin America,231,DNS reflection amplification disruption spike on primary nameservers
+2025-01-22,Ransomware,Medium,Cloud-Scrubbing-Center,Asia-Pacific,43,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-01-22,SQL Injection,Low,Honeypot-Sensor,North America,54,UNION-based database extract attempts detected and scrubbed by WAF
+2025-01-22,Malware,High,SIEM-Collector,Middle East,21,Obfuscated PowerShell script executing memory-only injection
+2025-01-22,Data Breach,High,EDR-Agent,East Asia,13,Privileged service account credential abuse and bulk table export
+2025-01-22,Brute Force,Low,VPN-Concentrator,Western Europe,149,Kerberoasting and domain controller password brute force probe
+2025-01-23,DDoS,Medium,Honeypot-Sensor,Global,53,DNS reflection amplification disruption spike on primary nameservers
+2025-01-23,Ransomware,High,SIEM-Collector,Europe,7,Volume shadow copy deletion command flagged on file server
+2025-01-24,Malware,Medium,EDR-Agent,Asia-Pacific,68,Obfuscated PowerShell script executing memory-only injection
+2025-01-24,SQL Injection,Critical,WAF-Gateway,North America,50,SQLmap automated enumeration probing public portal parameters
+2025-01-24,Malware,Low,Audit-Log,Asia-Pacific,55,Emotet trojan loader payload intercepted by EDR
+2025-01-24,Botnet,High,Cloud-Scrubbing-Center,Western Europe,139,Automated distributed vulnerability scan across public subnets
+2025-01-24,DDoS,Medium,Audit-Log,North America,45,SYN flood targeting web application frontend load balancers
+2025-01-25,Phishing,Medium,VPN-Concentrator,North America,163,Spear-phishing email with malicious macro attachment
+2025-01-25,DDoS,Medium,SIEM-Collector,Global,101,DNS reflection amplification disruption spike on primary nameservers
+2025-01-26,Data Breach,Low,Firewall-IDS,East Asia,42,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-01-26,DDoS,Medium,Honeypot-Sensor,Latin America,248,SYN flood targeting web application frontend load balancers
+2025-01-26,Brute Force,Low,WAF-Gateway,Western Europe,114,Kerberoasting and domain controller password brute force probe
+2025-01-26,DDoS,Critical,DNS-Sinkhole,Middle East,164,SYN flood targeting web application frontend load balancers
+2025-01-26,Data Breach,Low,Firewall-IDS,Western Europe,30,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-01-27,Brute Force,Medium,Email-Gateway,Europe,121,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-27,Brute Force,Medium,Email-Gateway,Western Europe,44,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-27,Malware,Low,Email-Gateway,Asia-Pacific,30,Emotet trojan loader payload intercepted by EDR
+2025-01-27,Brute Force,Medium,EDR-Agent,Latin America,103,RDP remote desktop authentication flood targeting perimeter bastion
+2025-01-27,Brute Force,Low,Email-Gateway,Global,66,Kerberoasting and domain controller password brute force probe
+2025-01-27,Malware,Medium,WAF-Gateway,North America,16,Cobalt Strike beacon detected on internal workstation
+2025-01-28,Malware,Low,VPN-Concentrator,Global,57,Cobalt Strike beacon detected on internal workstation
+2025-01-28,DDoS,Low,Audit-Log,East Asia,270,DNS reflection amplification disruption spike on primary nameservers
+2025-01-28,DDoS,Medium,SIEM-Collector,Latin America,203,DNS reflection amplification disruption spike on primary nameservers
+2025-01-28,Brute Force,Medium,Audit-Log,Latin America,102,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-28,Botnet,Medium,Honeypot-Sensor,Western Europe,49,Zombie node synchronizing lateral probing commands
+2025-01-28,Phishing,Critical,Audit-Log,East Asia,116,Executive impersonation and wire transfer spoofing alert
+2025-01-28,Malware,High,Honeypot-Sensor,Western Europe,56,Obfuscated PowerShell script executing memory-only injection
+2025-01-28,Brute Force,Critical,Email-Gateway,Asia-Pacific,156,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-01-28,Data Breach,Low,EDR-Agent,Global,39,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-01-28,Ransomware,High,SIEM-Collector,Middle East,35,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-28,DDoS,Medium,Audit-Log,Global,332,Volumetric UDP amplification saturation hitting edge border routers
+2025-01-28,Malware,Medium,SIEM-Collector,Global,40,Emotet trojan loader payload intercepted by EDR
+2025-01-29,Malware,Medium,Audit-Log,Middle East,68,Cobalt Strike beacon detected on internal workstation
+2025-01-29,Malware,Low,Firewall-IDS,Asia-Pacific,9,Cobalt Strike beacon detected on internal workstation
+2025-01-29,Malware,Medium,Honeypot-Sensor,Global,74,Cobalt Strike beacon detected on internal workstation
+2025-01-29,Data Breach,Medium,Cloud-Scrubbing-Center,Latin America,35,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-01-29,Data Breach,Medium,SIEM-Collector,Western Europe,13,Privileged service account credential abuse and bulk table export
+2025-01-29,Ransomware,Low,WAF-Gateway,Middle East,33,Volume shadow copy deletion command flagged on file server
+2025-01-29,Data Breach,Medium,Firewall-IDS,North America,4,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-01-29,Phishing,Medium,DNS-Sinkhole,Asia-Pacific,120,Executive impersonation and wire transfer spoofing alert
+2025-01-30,Brute Force,Low,Cloud-Scrubbing-Center,North America,132,Kerberoasting and domain controller password brute force probe
+2025-01-30,Phishing,Medium,Email-Gateway,Western Europe,106,Credential harvesting campaign targeting corporate Office365
+2025-01-31,Phishing,Medium,Email-Gateway,Global,119,Spear-phishing email with malicious macro attachment
+2025-01-31,Ransomware,Medium,Email-Gateway,North America,2,Rapid bulk file encryption telemetry and extortion note dropped
+2025-01-31,Data Breach,Medium,Honeypot-Sensor,North America,31,Privileged service account credential abuse and bulk table export
+2025-01-31,Ransomware,Medium,Audit-Log,Latin America,34,Rapid bulk file encryption telemetry and extortion note dropped
+2025-02-01,Malware,Low,Audit-Log,Asia-Pacific,53,Obfuscated PowerShell script executing memory-only injection
+2025-02-01,SQL Injection,High,SIEM-Collector,East Asia,86,UNION-based database extract attempts detected and scrubbed by WAF
+2025-02-02,DDoS,Low,Audit-Log,Europe,119,SYN flood targeting web application frontend load balancers
+2025-02-02,Brute Force,Low,Cloud-Scrubbing-Center,Latin America,115,RDP remote desktop authentication flood targeting perimeter bastion
+2025-02-02,Botnet,High,EDR-Agent,North America,100,Automated distributed vulnerability scan across public subnets
+2025-02-02,Phishing,Medium,EDR-Agent,Western Europe,132,Spear-phishing email with malicious macro attachment
+2025-02-03,Botnet,Medium,DNS-Sinkhole,Asia-Pacific,66,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-03,Botnet,High,EDR-Agent,North America,48,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-03,Malware,Low,DNS-Sinkhole,Western Europe,72,Emotet trojan loader payload intercepted by EDR
+2025-02-03,Ransomware,Low,Firewall-IDS,Asia-Pacific,29,Volume shadow copy deletion command flagged on file server
+2025-02-04,Data Breach,Low,Email-Gateway,North America,13,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-02-04,Brute Force,High,Cloud-Scrubbing-Center,Middle East,65,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-02-04,Data Breach,Medium,Honeypot-Sensor,East Asia,38,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-02-05,DDoS,Low,Firewall-IDS,North America,131,DNS reflection amplification disruption spike on primary nameservers
+2025-02-05,Botnet,Medium,VPN-Concentrator,East Asia,102,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-05,DDoS,High,Audit-Log,Global,292,SYN flood targeting web application frontend load balancers
+2025-02-05,Phishing,Low,Cloud-Scrubbing-Center,Middle East,57,Spear-phishing email with malicious macro attachment
+2025-02-05,Data Breach,Low,Honeypot-Sensor,Global,30,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-02-06,Botnet,Critical,DNS-Sinkhole,Asia-Pacific,99,Automated distributed vulnerability scan across public subnets
+2025-02-06,Phishing,Medium,DNS-Sinkhole,Asia-Pacific,114,Credential harvesting campaign targeting corporate Office365
+2025-02-06,Phishing,Low,Audit-Log,East Asia,152,Executive impersonation and wire transfer spoofing alert
+2025-02-06,Ransomware,Critical,SIEM-Collector,Asia-Pacific,37,Volume shadow copy deletion command flagged on file server
+2025-02-06,Botnet,Medium,DNS-Sinkhole,Western Europe,34,Zombie node synchronizing lateral probing commands
+2025-02-07,Brute Force,High,SIEM-Collector,East Asia,120,RDP remote desktop authentication flood targeting perimeter bastion
+2025-02-07,SQL Injection,Medium,Audit-Log,East Asia,14,Automated blind SQL injection payloads against public /api/search endpoint
+2025-02-07,Botnet,Medium,Audit-Log,East Asia,90,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-07,Botnet,Medium,EDR-Agent,North America,42,Automated distributed vulnerability scan across public subnets
+2025-02-07,Phishing,Low,VPN-Concentrator,Europe,131,Spear-phishing email with malicious macro attachment
+2025-02-07,DDoS,Critical,DNS-Sinkhole,North America,173,SYN flood targeting web application frontend load balancers
+2025-02-07,Malware,Critical,Email-Gateway,Western Europe,49,Cobalt Strike beacon detected on internal workstation
+2025-02-07,Phishing,High,DNS-Sinkhole,East Asia,92,Spear-phishing email with malicious macro attachment
+2025-02-07,Phishing,High,EDR-Agent,East Asia,71,Credential harvesting campaign targeting corporate Office365
+2025-02-08,Botnet,Medium,Audit-Log,Western Europe,65,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-08,Data Breach,Medium,Firewall-IDS,Middle East,45,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-02-08,Malware,Medium,SIEM-Collector,Middle East,80,Cobalt Strike beacon detected on internal workstation
+2025-02-08,DDoS,Medium,SIEM-Collector,Global,156,SYN flood targeting web application frontend load balancers
+2025-02-09,SQL Injection,High,Audit-Log,North America,8,Automated blind SQL injection payloads against public /api/search endpoint
+2025-02-09,Malware,Low,Email-Gateway,Global,76,Obfuscated PowerShell script executing memory-only injection
+2025-02-09,Botnet,Critical,VPN-Concentrator,Europe,88,Automated distributed vulnerability scan across public subnets
+2025-02-09,DDoS,Critical,EDR-Agent,North America,234,DNS reflection amplification disruption spike on primary nameservers
+2025-02-09,Malware,High,Audit-Log,East Asia,40,Cobalt Strike beacon detected on internal workstation
+2025-02-09,Botnet,High,EDR-Agent,North America,101,Zombie node synchronizing lateral probing commands
+2025-02-09,Brute Force,Low,EDR-Agent,North America,51,Kerberoasting and domain controller password brute force probe
+2025-02-09,Phishing,Medium,EDR-Agent,Middle East,174,Executive impersonation and wire transfer spoofing alert
+2025-02-09,Ransomware,High,EDR-Agent,Western Europe,39,Rapid bulk file encryption telemetry and extortion note dropped
+2025-02-09,SQL Injection,Low,DNS-Sinkhole,Europe,50,UNION-based database extract attempts detected and scrubbed by WAF
+2025-02-09,SQL Injection,Medium,EDR-Agent,Middle East,94,UNION-based database extract attempts detected and scrubbed by WAF
+2025-02-10,Data Breach,High,Firewall-IDS,Europe,32,Privileged service account credential abuse and bulk table export
+2025-02-10,Botnet,High,Audit-Log,North America,70,Automated distributed vulnerability scan across public subnets
+2025-02-10,Malware,High,DNS-Sinkhole,Global,19,Emotet trojan loader payload intercepted by EDR
+2025-02-10,Data Breach,Medium,Email-Gateway,Middle East,34,Privileged service account credential abuse and bulk table export
+2025-02-10,Malware,Low,Audit-Log,Europe,31,Obfuscated PowerShell script executing memory-only injection
+2025-02-11,Botnet,Low,WAF-Gateway,East Asia,142,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-11,Ransomware,High,DNS-Sinkhole,Asia-Pacific,38,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-02-11,DDoS,Medium,SIEM-Collector,Middle East,329,DNS reflection amplification disruption spike on primary nameservers
+2025-02-11,Phishing,Medium,VPN-Concentrator,North America,43,Spear-phishing email with malicious macro attachment
+2025-02-11,Botnet,Low,WAF-Gateway,Middle East,67,Zombie node synchronizing lateral probing commands
+2025-02-11,Brute Force,Medium,SIEM-Collector,Global,131,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-02-11,DDoS,Medium,Cloud-Scrubbing-Center,North America,102,SYN flood targeting web application frontend load balancers
+2025-02-11,DDoS,Low,WAF-Gateway,Middle East,231,Volumetric UDP amplification saturation hitting edge border routers
+2025-02-12,Phishing,High,Email-Gateway,Middle East,23,Spear-phishing email with malicious macro attachment
+2025-02-12,Brute Force,High,DNS-Sinkhole,Europe,80,Kerberoasting and domain controller password brute force probe
+2025-02-12,Malware,High,Cloud-Scrubbing-Center,Western Europe,6,Emotet trojan loader payload intercepted by EDR
+2025-02-13,Phishing,High,Cloud-Scrubbing-Center,Western Europe,134,Executive impersonation and wire transfer spoofing alert
+2025-02-13,Brute Force,Medium,EDR-Agent,Asia-Pacific,172,RDP remote desktop authentication flood targeting perimeter bastion
+2025-02-13,Ransomware,Medium,Audit-Log,Middle East,10,Volume shadow copy deletion command flagged on file server
+2025-02-13,Brute Force,High,Honeypot-Sensor,Europe,101,Kerberoasting and domain controller password brute force probe
+2025-02-13,DDoS,Low,Honeypot-Sensor,Western Europe,130,DNS reflection amplification disruption spike on primary nameservers
+2025-02-13,SQL Injection,Medium,Firewall-IDS,Europe,56,SQLmap automated enumeration probing public portal parameters
+2025-02-13,DDoS,High,Audit-Log,Asia-Pacific,346,DNS reflection amplification disruption spike on primary nameservers
+2025-02-13,DDoS,Low,DNS-Sinkhole,Middle East,347,DNS reflection amplification disruption spike on primary nameservers
+2025-02-14,Phishing,Low,Email-Gateway,Latin America,20,Executive impersonation and wire transfer spoofing alert
+2025-02-14,Ransomware,High,Honeypot-Sensor,Latin America,7,Rapid bulk file encryption telemetry and extortion note dropped
+2025-02-14,DDoS,High,Firewall-IDS,North America,236,Volumetric UDP amplification saturation hitting edge border routers
+2025-02-14,Phishing,Medium,VPN-Concentrator,Europe,175,Spear-phishing email with malicious macro attachment
+2025-02-14,SQL Injection,High,Email-Gateway,Europe,61,SQLmap automated enumeration probing public portal parameters
+2025-02-15,Phishing,Medium,SIEM-Collector,Western Europe,88,Executive impersonation and wire transfer spoofing alert
+2025-02-15,Botnet,Medium,Audit-Log,Asia-Pacific,131,Zombie node synchronizing lateral probing commands
+2025-02-15,DDoS,Low,SIEM-Collector,Western Europe,54,DNS reflection amplification disruption spike on primary nameservers
+2025-02-15,SQL Injection,High,Cloud-Scrubbing-Center,North America,95,SQLmap automated enumeration probing public portal parameters
+2025-02-15,Phishing,Low,Audit-Log,Asia-Pacific,43,Executive impersonation and wire transfer spoofing alert
+2025-02-16,SQL Injection,Medium,WAF-Gateway,Middle East,12,UNION-based database extract attempts detected and scrubbed by WAF
+2025-02-16,Brute Force,Critical,WAF-Gateway,Middle East,18,RDP remote desktop authentication flood targeting perimeter bastion
+2025-02-16,Phishing,High,Honeypot-Sensor,Western Europe,180,Executive impersonation and wire transfer spoofing alert
+2025-02-16,Brute Force,Medium,Email-Gateway,Western Europe,83,Kerberoasting and domain controller password brute force probe
+2025-02-16,Data Breach,Low,EDR-Agent,Western Europe,36,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-02-16,SQL Injection,Critical,Audit-Log,Latin America,86,SQLmap automated enumeration probing public portal parameters
+2025-02-17,Brute Force,High,SIEM-Collector,Europe,68,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-02-17,Botnet,Critical,VPN-Concentrator,Europe,31,Automated distributed vulnerability scan across public subnets
+2025-02-17,Ransomware,Critical,EDR-Agent,Middle East,17,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-02-17,SQL Injection,Medium,VPN-Concentrator,Middle East,81,SQLmap automated enumeration probing public portal parameters
+2025-02-17,Botnet,High,WAF-Gateway,Middle East,160,Zombie node synchronizing lateral probing commands
+2025-02-17,Ransomware,Medium,Audit-Log,Latin America,29,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-02-18,Ransomware,Low,Email-Gateway,Asia-Pacific,14,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-02-18,Malware,High,VPN-Concentrator,Latin America,94,Obfuscated PowerShell script executing memory-only injection
+2025-02-18,Botnet,Medium,Audit-Log,North America,33,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-18,Ransomware,High,Cloud-Scrubbing-Center,Western Europe,6,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-02-19,Ransomware,High,Honeypot-Sensor,Global,6,Rapid bulk file encryption telemetry and extortion note dropped
+2025-02-19,Phishing,Medium,WAF-Gateway,Latin America,168,Executive impersonation and wire transfer spoofing alert
+2025-02-19,Botnet,Medium,VPN-Concentrator,Europe,84,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-19,SQL Injection,High,Firewall-IDS,Latin America,18,Automated blind SQL injection payloads against public /api/search endpoint
+2025-02-20,Malware,Critical,DNS-Sinkhole,Latin America,63,Cobalt Strike beacon detected on internal workstation
+2025-02-20,DDoS,Medium,Email-Gateway,Western Europe,301,DNS reflection amplification disruption spike on primary nameservers
+2025-02-20,Data Breach,High,EDR-Agent,Global,8,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-02-20,DDoS,Low,SIEM-Collector,Europe,309,Volumetric UDP amplification saturation hitting edge border routers
+2025-02-20,Ransomware,High,Email-Gateway,Latin America,16,Volume shadow copy deletion command flagged on file server
+2025-02-20,Malware,Low,WAF-Gateway,East Asia,47,Obfuscated PowerShell script executing memory-only injection
+2025-02-21,DDoS,Medium,Honeypot-Sensor,North America,215,DNS reflection amplification disruption spike on primary nameservers
+2025-02-21,Ransomware,Medium,Honeypot-Sensor,Western Europe,43,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-02-21,Botnet,Low,SIEM-Collector,Middle East,155,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-21,Botnet,Critical,SIEM-Collector,Asia-Pacific,42,Zombie node synchronizing lateral probing commands
+2025-02-21,DDoS,Low,WAF-Gateway,Global,121,SYN flood targeting web application frontend load balancers
+2025-02-22,Botnet,Medium,Audit-Log,Asia-Pacific,19,Automated distributed vulnerability scan across public subnets
+2025-02-22,Data Breach,Medium,Cloud-Scrubbing-Center,Asia-Pacific,40,Privileged service account credential abuse and bulk table export
+2025-02-22,Data Breach,Critical,Cloud-Scrubbing-Center,North America,15,Privileged service account credential abuse and bulk table export
+2025-02-22,DDoS,Low,Cloud-Scrubbing-Center,North America,66,Volumetric UDP amplification saturation hitting edge border routers
+2025-02-22,SQL Injection,Low,EDR-Agent,Western Europe,79,SQLmap automated enumeration probing public portal parameters
+2025-02-22,Data Breach,High,WAF-Gateway,Asia-Pacific,34,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-02-22,Ransomware,Critical,Audit-Log,North America,37,Rapid bulk file encryption telemetry and extortion note dropped
+2025-02-23,SQL Injection,High,Audit-Log,East Asia,26,SQLmap automated enumeration probing public portal parameters
+2025-02-23,Malware,Medium,EDR-Agent,Europe,7,Emotet trojan loader payload intercepted by EDR
+2025-02-23,DDoS,High,DNS-Sinkhole,Europe,125,DNS reflection amplification disruption spike on primary nameservers
+2025-02-23,Ransomware,High,DNS-Sinkhole,Global,35,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-02-23,DDoS,Medium,SIEM-Collector,East Asia,161,Volumetric UDP amplification saturation hitting edge border routers
+2025-02-23,Malware,Medium,EDR-Agent,North America,11,Emotet trojan loader payload intercepted by EDR
+2025-02-24,Data Breach,Medium,Audit-Log,North America,32,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-02-24,Botnet,Medium,Audit-Log,Middle East,157,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-24,Data Breach,High,Cloud-Scrubbing-Center,North America,33,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-02-24,DDoS,High,SIEM-Collector,East Asia,282,Volumetric UDP amplification saturation hitting edge border routers
+2025-02-25,Botnet,Low,Email-Gateway,Western Europe,66,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-25,DDoS,Medium,SIEM-Collector,Global,87,DNS reflection amplification disruption spike on primary nameservers
+2025-02-25,Botnet,High,Audit-Log,East Asia,164,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-02-26,Data Breach,Critical,Cloud-Scrubbing-Center,Middle East,11,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-02-27,Botnet,High,SIEM-Collector,Latin America,177,Zombie node synchronizing lateral probing commands
+2025-02-27,Botnet,Low,VPN-Concentrator,Western Europe,155,Zombie node synchronizing lateral probing commands
+2025-02-27,Ransomware,Medium,DNS-Sinkhole,Latin America,5,Rapid bulk file encryption telemetry and extortion note dropped
+2025-02-27,SQL Injection,Critical,Cloud-Scrubbing-Center,Asia-Pacific,22,Automated blind SQL injection payloads against public /api/search endpoint
+2025-02-27,SQL Injection,High,Honeypot-Sensor,Latin America,29,UNION-based database extract attempts detected and scrubbed by WAF
+2025-02-28,Malware,High,EDR-Agent,Europe,45,Emotet trojan loader payload intercepted by EDR
+2025-03-01,Phishing,Medium,VPN-Concentrator,Asia-Pacific,143,Executive impersonation and wire transfer spoofing alert
+2025-03-01,Malware,Critical,VPN-Concentrator,Europe,28,Cobalt Strike beacon detected on internal workstation
+2025-03-01,Phishing,Medium,Honeypot-Sensor,East Asia,71,Spear-phishing email with malicious macro attachment
+2025-03-01,Phishing,Medium,VPN-Concentrator,East Asia,113,Executive impersonation and wire transfer spoofing alert
+2025-03-01,Brute Force,High,Audit-Log,North America,85,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-02,Phishing,Medium,Honeypot-Sensor,Western Europe,54,Credential harvesting campaign targeting corporate Office365
+2025-03-02,Data Breach,Critical,Cloud-Scrubbing-Center,Western Europe,6,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-03-02,Botnet,Medium,Honeypot-Sensor,Global,23,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-03-02,Malware,High,Cloud-Scrubbing-Center,Global,79,Obfuscated PowerShell script executing memory-only injection
+2025-03-02,Botnet,Critical,EDR-Agent,East Asia,40,Zombie node synchronizing lateral probing commands
+2025-03-02,Malware,High,Audit-Log,Western Europe,19,Obfuscated PowerShell script executing memory-only injection
+2025-03-02,SQL Injection,Critical,Audit-Log,North America,5,UNION-based database extract attempts detected and scrubbed by WAF
+2025-03-02,Malware,Low,DNS-Sinkhole,Western Europe,13,Cobalt Strike beacon detected on internal workstation
+2025-03-02,Data Breach,High,SIEM-Collector,Latin America,34,Privileged service account credential abuse and bulk table export
+2025-03-02,Data Breach,Low,Firewall-IDS,Western Europe,16,Privileged service account credential abuse and bulk table export
+2025-03-02,Phishing,High,EDR-Agent,Western Europe,53,Credential harvesting campaign targeting corporate Office365
+2025-03-02,Botnet,High,SIEM-Collector,East Asia,22,Zombie node synchronizing lateral probing commands
+2025-03-03,Brute Force,Low,SIEM-Collector,Western Europe,80,Kerberoasting and domain controller password brute force probe
+2025-03-03,DDoS,Low,Email-Gateway,Global,99,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-03,DDoS,Low,DNS-Sinkhole,Europe,252,DNS reflection amplification disruption spike on primary nameservers
+2025-03-03,Botnet,Low,Email-Gateway,East Asia,118,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-03-04,Brute Force,Low,WAF-Gateway,Middle East,39,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-04,Data Breach,Medium,Firewall-IDS,Asia-Pacific,3,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-03-04,DDoS,Low,Honeypot-Sensor,Latin America,320,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-04,Data Breach,Medium,DNS-Sinkhole,East Asia,42,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-03-05,Ransomware,High,Audit-Log,East Asia,21,Rapid bulk file encryption telemetry and extortion note dropped
+2025-03-05,Phishing,Medium,DNS-Sinkhole,Global,81,Credential harvesting campaign targeting corporate Office365
+2025-03-05,Data Breach,Low,WAF-Gateway,Latin America,30,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-03-05,Ransomware,Critical,SIEM-Collector,Western Europe,9,Volume shadow copy deletion command flagged on file server
+2025-03-06,Data Breach,Critical,Audit-Log,Western Europe,16,Privileged service account credential abuse and bulk table export
+2025-03-06,Phishing,Medium,Firewall-IDS,North America,70,Spear-phishing email with malicious macro attachment
+2025-03-06,Brute Force,High,EDR-Agent,Europe,44,Kerberoasting and domain controller password brute force probe
+2025-03-06,Malware,Medium,WAF-Gateway,Europe,20,Obfuscated PowerShell script executing memory-only injection
+2025-03-07,Brute Force,Low,Cloud-Scrubbing-Center,Middle East,160,Kerberoasting and domain controller password brute force probe
+2025-03-07,SQL Injection,Medium,VPN-Concentrator,Global,16,SQLmap automated enumeration probing public portal parameters
+2025-03-07,Malware,Low,Honeypot-Sensor,North America,10,Cobalt Strike beacon detected on internal workstation
+2025-03-07,Brute Force,Medium,EDR-Agent,Asia-Pacific,175,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-07,DDoS,Medium,EDR-Agent,Asia-Pacific,118,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-08,Malware,Medium,DNS-Sinkhole,North America,25,Obfuscated PowerShell script executing memory-only injection
+2025-03-08,DDoS,Medium,SIEM-Collector,Global,174,DNS reflection amplification disruption spike on primary nameservers
+2025-03-08,Botnet,Low,Audit-Log,East Asia,103,Zombie node synchronizing lateral probing commands
+2025-03-09,Botnet,Medium,Audit-Log,Global,108,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-03-09,SQL Injection,Low,WAF-Gateway,East Asia,56,SQLmap automated enumeration probing public portal parameters
+2025-03-09,Botnet,Medium,Honeypot-Sensor,Western Europe,54,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-03-09,DDoS,Low,SIEM-Collector,Europe,312,SYN flood targeting web application frontend load balancers
+2025-03-09,Ransomware,High,DNS-Sinkhole,Global,15,Volume shadow copy deletion command flagged on file server
+2025-03-09,Data Breach,Medium,SIEM-Collector,North America,10,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-03-10,Brute Force,Low,DNS-Sinkhole,Middle East,122,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-10,Data Breach,High,Email-Gateway,Europe,10,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-03-10,SQL Injection,High,Audit-Log,Europe,19,SQLmap automated enumeration probing public portal parameters
+2025-03-11,SQL Injection,High,WAF-Gateway,Middle East,88,UNION-based database extract attempts detected and scrubbed by WAF
+2025-03-11,Ransomware,Medium,Audit-Log,East Asia,32,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-03-11,Data Breach,Low,Honeypot-Sensor,Asia-Pacific,38,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-03-11,Brute Force,Low,DNS-Sinkhole,Western Europe,157,Kerberoasting and domain controller password brute force probe
+2025-03-11,Malware,Medium,Audit-Log,Europe,68,Emotet trojan loader payload intercepted by EDR
+2025-03-12,Brute Force,Medium,DNS-Sinkhole,Western Europe,27,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-12,Malware,Medium,Email-Gateway,North America,10,Obfuscated PowerShell script executing memory-only injection
+2025-03-12,Brute Force,Medium,Email-Gateway,North America,90,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-12,Brute Force,Medium,DNS-Sinkhole,North America,116,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-12,Botnet,Medium,EDR-Agent,Asia-Pacific,166,Zombie node synchronizing lateral probing commands
+2025-03-12,Brute Force,Low,VPN-Concentrator,Global,54,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-13,Botnet,Low,SIEM-Collector,Middle East,68,Zombie node synchronizing lateral probing commands
+2025-03-13,Botnet,High,VPN-Concentrator,North America,153,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-03-13,Brute Force,Medium,DNS-Sinkhole,Asia-Pacific,37,Kerberoasting and domain controller password brute force probe
+2025-03-13,Data Breach,Low,SIEM-Collector,Western Europe,32,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-03-13,SQL Injection,Medium,Honeypot-Sensor,Latin America,69,SQLmap automated enumeration probing public portal parameters
+2025-03-13,Botnet,Low,EDR-Agent,Asia-Pacific,166,Zombie node synchronizing lateral probing commands
+2025-03-13,DDoS,Low,Firewall-IDS,North America,198,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-13,SQL Injection,Medium,Cloud-Scrubbing-Center,Middle East,7,SQLmap automated enumeration probing public portal parameters
+2025-03-14,Ransomware,Medium,WAF-Gateway,North America,37,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-03-15,Brute Force,High,VPN-Concentrator,Western Europe,172,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-15,Brute Force,Medium,VPN-Concentrator,Asia-Pacific,173,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-15,Malware,Medium,Honeypot-Sensor,East Asia,64,Obfuscated PowerShell script executing memory-only injection
+2025-03-15,Ransomware,High,Honeypot-Sensor,North America,30,Volume shadow copy deletion command flagged on file server
+2025-03-16,Malware,Low,Email-Gateway,Global,57,Obfuscated PowerShell script executing memory-only injection
+2025-03-16,DDoS,High,DNS-Sinkhole,Middle East,252,DNS reflection amplification disruption spike on primary nameservers
+2025-03-16,DDoS,High,Honeypot-Sensor,Global,116,SYN flood targeting web application frontend load balancers
+2025-03-16,Botnet,Medium,VPN-Concentrator,Western Europe,77,Automated distributed vulnerability scan across public subnets
+2025-03-17,Phishing,Medium,Honeypot-Sensor,North America,95,Credential harvesting campaign targeting corporate Office365
+2025-03-17,Brute Force,Low,DNS-Sinkhole,Asia-Pacific,172,Kerberoasting and domain controller password brute force probe
+2025-03-17,Botnet,Critical,Audit-Log,Asia-Pacific,159,Zombie node synchronizing lateral probing commands
+2025-03-17,Malware,Low,Firewall-IDS,East Asia,86,Cobalt Strike beacon detected on internal workstation
+2025-03-17,Data Breach,Medium,SIEM-Collector,Global,35,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-03-18,SQL Injection,Critical,EDR-Agent,North America,63,SQLmap automated enumeration probing public portal parameters
+2025-03-18,Brute Force,High,VPN-Concentrator,Latin America,72,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-18,Ransomware,High,Firewall-IDS,Asia-Pacific,5,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-03-18,Ransomware,High,EDR-Agent,East Asia,9,Volume shadow copy deletion command flagged on file server
+2025-03-19,Brute Force,Medium,WAF-Gateway,Middle East,47,Kerberoasting and domain controller password brute force probe
+2025-03-19,Botnet,High,EDR-Agent,Latin America,49,Automated distributed vulnerability scan across public subnets
+2025-03-19,Phishing,Medium,Email-Gateway,East Asia,163,Executive impersonation and wire transfer spoofing alert
+2025-03-19,SQL Injection,Low,Audit-Log,Global,23,Automated blind SQL injection payloads against public /api/search endpoint
+2025-03-19,Phishing,Low,VPN-Concentrator,East Asia,124,Executive impersonation and wire transfer spoofing alert
+2025-03-19,Phishing,Medium,EDR-Agent,Global,151,Spear-phishing email with malicious macro attachment
+2025-03-19,Brute Force,High,SIEM-Collector,Global,45,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-19,Botnet,Critical,Email-Gateway,Global,20,Zombie node synchronizing lateral probing commands
+2025-03-19,Phishing,Medium,Firewall-IDS,Global,88,Spear-phishing email with malicious macro attachment
+2025-03-19,Malware,Low,Firewall-IDS,Latin America,44,Cobalt Strike beacon detected on internal workstation
+2025-03-20,SQL Injection,High,SIEM-Collector,East Asia,16,UNION-based database extract attempts detected and scrubbed by WAF
+2025-03-20,Phishing,Low,Audit-Log,Europe,36,Executive impersonation and wire transfer spoofing alert
+2025-03-20,DDoS,Medium,Audit-Log,North America,23,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-20,DDoS,Medium,EDR-Agent,Europe,20,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-20,Botnet,Medium,VPN-Concentrator,Middle East,118,Automated distributed vulnerability scan across public subnets
+2025-03-20,Phishing,High,Email-Gateway,Latin America,41,Spear-phishing email with malicious macro attachment
+2025-03-20,Ransomware,High,SIEM-Collector,Europe,41,Rapid bulk file encryption telemetry and extortion note dropped
+2025-03-21,SQL Injection,Critical,EDR-Agent,Latin America,61,UNION-based database extract attempts detected and scrubbed by WAF
+2025-03-21,DDoS,Medium,VPN-Concentrator,Latin America,135,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-21,DDoS,High,VPN-Concentrator,Asia-Pacific,87,DNS reflection amplification disruption spike on primary nameservers
+2025-03-21,SQL Injection,Medium,WAF-Gateway,Asia-Pacific,8,UNION-based database extract attempts detected and scrubbed by WAF
+2025-03-22,Malware,Low,WAF-Gateway,North America,22,Obfuscated PowerShell script executing memory-only injection
+2025-03-22,SQL Injection,Low,DNS-Sinkhole,North America,89,SQLmap automated enumeration probing public portal parameters
+2025-03-22,Ransomware,Critical,Honeypot-Sensor,Western Europe,17,Volume shadow copy deletion command flagged on file server
+2025-03-22,Brute Force,Medium,Honeypot-Sensor,Western Europe,142,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-22,Malware,Medium,Audit-Log,Latin America,37,Cobalt Strike beacon detected on internal workstation
+2025-03-22,Data Breach,High,WAF-Gateway,Europe,26,Privileged service account credential abuse and bulk table export
+2025-03-22,Phishing,High,WAF-Gateway,Western Europe,49,Credential harvesting campaign targeting corporate Office365
+2025-03-22,DDoS,Medium,Firewall-IDS,Global,92,DNS reflection amplification disruption spike on primary nameservers
+2025-03-23,Malware,Low,Email-Gateway,East Asia,93,Cobalt Strike beacon detected on internal workstation
+2025-03-23,DDoS,Critical,Honeypot-Sensor,Europe,278,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-23,Phishing,Critical,Cloud-Scrubbing-Center,East Asia,52,Executive impersonation and wire transfer spoofing alert
+2025-03-23,SQL Injection,Critical,Audit-Log,Western Europe,71,SQLmap automated enumeration probing public portal parameters
+2025-03-23,Botnet,Low,EDR-Agent,North America,102,Zombie node synchronizing lateral probing commands
+2025-03-24,Botnet,Low,Email-Gateway,North America,83,Zombie node synchronizing lateral probing commands
+2025-03-24,Malware,High,Honeypot-Sensor,East Asia,29,Obfuscated PowerShell script executing memory-only injection
+2025-03-24,Phishing,Critical,EDR-Agent,Latin America,151,Executive impersonation and wire transfer spoofing alert
+2025-03-24,Phishing,Low,Audit-Log,Latin America,131,Credential harvesting campaign targeting corporate Office365
+2025-03-24,Brute Force,High,DNS-Sinkhole,Western Europe,96,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-24,Brute Force,High,SIEM-Collector,North America,112,RDP remote desktop authentication flood targeting perimeter bastion
+2025-03-24,Malware,High,Cloud-Scrubbing-Center,East Asia,77,Obfuscated PowerShell script executing memory-only injection
+2025-03-24,Botnet,High,SIEM-Collector,Asia-Pacific,111,Zombie node synchronizing lateral probing commands
+2025-03-24,Malware,High,Cloud-Scrubbing-Center,East Asia,93,Emotet trojan loader payload intercepted by EDR
+2025-03-24,Malware,Medium,Honeypot-Sensor,Middle East,8,Obfuscated PowerShell script executing memory-only injection
+2025-03-25,Brute Force,Medium,Email-Gateway,North America,166,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-25,DDoS,Medium,Email-Gateway,Middle East,120,Volumetric UDP amplification saturation hitting edge border routers
+2025-03-25,Data Breach,Medium,EDR-Agent,Latin America,9,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-03-25,Phishing,Medium,DNS-Sinkhole,Europe,158,Credential harvesting campaign targeting corporate Office365
+2025-03-26,Malware,Low,Firewall-IDS,Middle East,76,Cobalt Strike beacon detected on internal workstation
+2025-03-26,Botnet,Low,Audit-Log,Western Europe,158,Zombie node synchronizing lateral probing commands
+2025-03-26,Ransomware,Critical,Email-Gateway,East Asia,41,Volume shadow copy deletion command flagged on file server
+2025-03-26,Ransomware,Medium,Email-Gateway,North America,7,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-03-26,SQL Injection,Critical,SIEM-Collector,Middle East,26,Automated blind SQL injection payloads against public /api/search endpoint
+2025-03-26,Malware,High,WAF-Gateway,Latin America,32,Obfuscated PowerShell script executing memory-only injection
+2025-03-26,Data Breach,High,Cloud-Scrubbing-Center,Western Europe,8,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-03-27,Malware,Medium,DNS-Sinkhole,Asia-Pacific,94,Emotet trojan loader payload intercepted by EDR
+2025-03-27,Botnet,Critical,SIEM-Collector,Asia-Pacific,127,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-03-28,Ransomware,Low,Audit-Log,Europe,29,Rapid bulk file encryption telemetry and extortion note dropped
+2025-03-28,SQL Injection,High,EDR-Agent,Europe,72,SQLmap automated enumeration probing public portal parameters
+2025-03-28,Data Breach,Critical,Firewall-IDS,Latin America,44,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-03-28,Data Breach,Medium,WAF-Gateway,East Asia,17,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-03-28,DDoS,Low,Honeypot-Sensor,Western Europe,91,SYN flood targeting web application frontend load balancers
+2025-03-28,Brute Force,Medium,VPN-Concentrator,Global,27,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-29,SQL Injection,Medium,Honeypot-Sensor,Western Europe,63,UNION-based database extract attempts detected and scrubbed by WAF
+2025-03-29,SQL Injection,High,SIEM-Collector,Western Europe,29,Automated blind SQL injection payloads against public /api/search endpoint
+2025-03-29,Malware,Medium,VPN-Concentrator,Middle East,54,Obfuscated PowerShell script executing memory-only injection
+2025-03-29,Phishing,Medium,Honeypot-Sensor,Western Europe,161,Executive impersonation and wire transfer spoofing alert
+2025-03-30,Botnet,High,EDR-Agent,North America,57,Automated distributed vulnerability scan across public subnets
+2025-03-30,Malware,High,Cloud-Scrubbing-Center,Asia-Pacific,10,Emotet trojan loader payload intercepted by EDR
+2025-03-30,Malware,Medium,EDR-Agent,Global,82,Obfuscated PowerShell script executing memory-only injection
+2025-03-30,Botnet,Medium,SIEM-Collector,East Asia,153,Automated distributed vulnerability scan across public subnets
+2025-03-30,Ransomware,High,EDR-Agent,Global,1,Rapid bulk file encryption telemetry and extortion note dropped
+2025-03-30,Malware,Medium,SIEM-Collector,Middle East,25,Obfuscated PowerShell script executing memory-only injection
+2025-03-30,DDoS,Low,DNS-Sinkhole,Global,88,SYN flood targeting web application frontend load balancers
+2025-03-30,Brute Force,High,Honeypot-Sensor,Europe,96,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-03-31,Data Breach,Medium,SIEM-Collector,Europe,44,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-03-31,Phishing,Medium,Email-Gateway,Europe,150,Credential harvesting campaign targeting corporate Office365
+2025-03-31,Malware,High,WAF-Gateway,North America,36,Cobalt Strike beacon detected on internal workstation
+2025-03-31,DDoS,Low,Email-Gateway,East Asia,188,SYN flood targeting web application frontend load balancers
+2025-03-31,SQL Injection,Medium,SIEM-Collector,Latin America,26,Automated blind SQL injection payloads against public /api/search endpoint
+2025-04-01,Data Breach,High,Audit-Log,North America,33,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-04-01,Brute Force,Medium,Email-Gateway,Western Europe,153,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-01,Ransomware,High,WAF-Gateway,Middle East,39,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-01,DDoS,Low,VPN-Concentrator,Latin America,75,SYN flood targeting web application frontend load balancers
+2025-04-01,Brute Force,High,VPN-Concentrator,Asia-Pacific,153,Kerberoasting and domain controller password brute force probe
+2025-04-01,Malware,Medium,VPN-Concentrator,North America,12,Emotet trojan loader payload intercepted by EDR
+2025-04-01,Botnet,Medium,SIEM-Collector,Europe,80,Zombie node synchronizing lateral probing commands
+2025-04-02,Data Breach,Medium,Audit-Log,Global,25,Privileged service account credential abuse and bulk table export
+2025-04-02,SQL Injection,Low,SIEM-Collector,North America,21,SQLmap automated enumeration probing public portal parameters
+2025-04-02,Ransomware,Medium,Audit-Log,East Asia,6,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-04-03,Ransomware,Low,Audit-Log,Western Europe,13,Volume shadow copy deletion command flagged on file server
+2025-04-03,Brute Force,Medium,Audit-Log,East Asia,108,Kerberoasting and domain controller password brute force probe
+2025-04-03,Data Breach,Medium,SIEM-Collector,Western Europe,45,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-04-03,Data Breach,High,Audit-Log,Global,12,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-04-04,Ransomware,Low,Cloud-Scrubbing-Center,Latin America,15,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-04-04,Phishing,Medium,Firewall-IDS,Europe,158,Executive impersonation and wire transfer spoofing alert
+2025-04-04,DDoS,Medium,Cloud-Scrubbing-Center,Western Europe,42,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-04,SQL Injection,High,DNS-Sinkhole,Europe,48,UNION-based database extract attempts detected and scrubbed by WAF
+2025-04-04,DDoS,Medium,EDR-Agent,Latin America,167,SYN flood targeting web application frontend load balancers
+2025-04-04,SQL Injection,Medium,SIEM-Collector,Europe,82,SQLmap automated enumeration probing public portal parameters
+2025-04-05,SQL Injection,Low,SIEM-Collector,Latin America,20,UNION-based database extract attempts detected and scrubbed by WAF
+2025-04-05,Ransomware,Medium,EDR-Agent,North America,16,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-05,Ransomware,High,DNS-Sinkhole,Global,12,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-05,Malware,Low,Honeypot-Sensor,East Asia,63,Obfuscated PowerShell script executing memory-only injection
+2025-04-05,DDoS,Low,Firewall-IDS,Western Europe,98,SYN flood targeting web application frontend load balancers
+2025-04-06,Data Breach,High,Cloud-Scrubbing-Center,Middle East,13,Privileged service account credential abuse and bulk table export
+2025-04-06,Malware,Medium,SIEM-Collector,Europe,7,Cobalt Strike beacon detected on internal workstation
+2025-04-06,Phishing,High,Firewall-IDS,North America,52,Spear-phishing email with malicious macro attachment
+2025-04-06,Data Breach,Medium,SIEM-Collector,Latin America,21,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-04-06,Botnet,Medium,EDR-Agent,Western Europe,28,Zombie node synchronizing lateral probing commands
+2025-04-06,Phishing,Medium,Honeypot-Sensor,Global,46,Spear-phishing email with malicious macro attachment
+2025-04-06,Malware,Medium,DNS-Sinkhole,Western Europe,92,Cobalt Strike beacon detected on internal workstation
+2025-04-07,Data Breach,Medium,Cloud-Scrubbing-Center,Middle East,21,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-04-07,Data Breach,Low,Firewall-IDS,Middle East,11,Privileged service account credential abuse and bulk table export
+2025-04-07,Phishing,Medium,SIEM-Collector,East Asia,59,Executive impersonation and wire transfer spoofing alert
+2025-04-07,Brute Force,Medium,DNS-Sinkhole,Asia-Pacific,167,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-04-07,Malware,Medium,DNS-Sinkhole,Latin America,71,Emotet trojan loader payload intercepted by EDR
+2025-04-07,Botnet,Low,Honeypot-Sensor,Latin America,122,Automated distributed vulnerability scan across public subnets
+2025-04-08,Malware,Medium,Audit-Log,Middle East,28,Obfuscated PowerShell script executing memory-only injection
+2025-04-08,Brute Force,Critical,Audit-Log,Asia-Pacific,56,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-04-08,DDoS,Medium,Audit-Log,Asia-Pacific,238,SYN flood targeting web application frontend load balancers
+2025-04-08,Ransomware,Low,Email-Gateway,Asia-Pacific,18,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-08,Data Breach,Medium,Audit-Log,Asia-Pacific,20,Privileged service account credential abuse and bulk table export
+2025-04-09,DDoS,Low,Audit-Log,North America,315,SYN flood targeting web application frontend load balancers
+2025-04-09,Data Breach,Medium,VPN-Concentrator,East Asia,29,Privileged service account credential abuse and bulk table export
+2025-04-09,Ransomware,Medium,Firewall-IDS,Latin America,18,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-04-09,Ransomware,Low,Firewall-IDS,Global,37,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-04-09,DDoS,Medium,Audit-Log,Europe,290,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-09,Botnet,Low,WAF-Gateway,Middle East,89,Automated distributed vulnerability scan across public subnets
+2025-04-10,DDoS,Critical,Email-Gateway,Asia-Pacific,74,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-10,Ransomware,High,VPN-Concentrator,Asia-Pacific,40,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-04-10,SQL Injection,High,Cloud-Scrubbing-Center,Asia-Pacific,62,Automated blind SQL injection payloads against public /api/search endpoint
+2025-04-10,Botnet,High,WAF-Gateway,East Asia,114,Automated distributed vulnerability scan across public subnets
+2025-04-10,Brute Force,Medium,DNS-Sinkhole,Asia-Pacific,139,Kerberoasting and domain controller password brute force probe
+2025-04-10,SQL Injection,Low,WAF-Gateway,Middle East,61,UNION-based database extract attempts detected and scrubbed by WAF
+2025-04-11,Malware,Critical,Email-Gateway,Asia-Pacific,92,Obfuscated PowerShell script executing memory-only injection
+2025-04-11,Brute Force,Medium,WAF-Gateway,Western Europe,41,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-11,Malware,Medium,Email-Gateway,Europe,76,Cobalt Strike beacon detected on internal workstation
+2025-04-11,Botnet,Low,Honeypot-Sensor,Europe,116,Automated distributed vulnerability scan across public subnets
+2025-04-11,Malware,Low,SIEM-Collector,East Asia,23,Cobalt Strike beacon detected on internal workstation
+2025-04-11,Brute Force,Low,Cloud-Scrubbing-Center,Global,175,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-11,SQL Injection,Medium,Cloud-Scrubbing-Center,Asia-Pacific,30,SQLmap automated enumeration probing public portal parameters
+2025-04-12,Ransomware,High,VPN-Concentrator,Middle East,21,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-12,Data Breach,High,Cloud-Scrubbing-Center,Western Europe,27,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-04-12,Malware,Low,VPN-Concentrator,North America,8,Emotet trojan loader payload intercepted by EDR
+2025-04-12,Data Breach,High,SIEM-Collector,Europe,42,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-04-13,SQL Injection,Low,Firewall-IDS,Western Europe,45,UNION-based database extract attempts detected and scrubbed by WAF
+2025-04-13,Malware,Medium,Cloud-Scrubbing-Center,Middle East,52,Cobalt Strike beacon detected on internal workstation
+2025-04-13,Malware,Low,Audit-Log,Global,32,Obfuscated PowerShell script executing memory-only injection
+2025-04-13,Ransomware,High,Firewall-IDS,Asia-Pacific,31,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-04-13,Brute Force,High,WAF-Gateway,Europe,150,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-04-13,Botnet,Medium,Honeypot-Sensor,Latin America,112,Zombie node synchronizing lateral probing commands
+2025-04-14,DDoS,High,VPN-Concentrator,Middle East,317,DNS reflection amplification disruption spike on primary nameservers
+2025-04-14,DDoS,Medium,EDR-Agent,Europe,301,SYN flood targeting web application frontend load balancers
+2025-04-14,DDoS,Medium,Audit-Log,Global,262,DNS reflection amplification disruption spike on primary nameservers
+2025-04-14,SQL Injection,High,WAF-Gateway,Western Europe,42,UNION-based database extract attempts detected and scrubbed by WAF
+2025-04-14,Data Breach,Low,WAF-Gateway,Asia-Pacific,29,Privileged service account credential abuse and bulk table export
+2025-04-15,DDoS,Medium,WAF-Gateway,Global,20,DNS reflection amplification disruption spike on primary nameservers
+2025-04-15,Malware,Low,Cloud-Scrubbing-Center,Europe,62,Emotet trojan loader payload intercepted by EDR
+2025-04-15,Data Breach,Low,Firewall-IDS,Europe,32,Privileged service account credential abuse and bulk table export
+2025-04-15,Brute Force,Low,VPN-Concentrator,Latin America,138,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-15,Malware,Low,DNS-Sinkhole,Global,59,Emotet trojan loader payload intercepted by EDR
+2025-04-16,Ransomware,High,EDR-Agent,Western Europe,38,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-16,Malware,High,Cloud-Scrubbing-Center,Latin America,41,Emotet trojan loader payload intercepted by EDR
+2025-04-16,SQL Injection,Medium,Cloud-Scrubbing-Center,Global,81,SQLmap automated enumeration probing public portal parameters
+2025-04-16,SQL Injection,Medium,Email-Gateway,North America,86,Automated blind SQL injection payloads against public /api/search endpoint
+2025-04-16,DDoS,Critical,Audit-Log,Middle East,249,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-16,Ransomware,High,Audit-Log,Western Europe,3,Volume shadow copy deletion command flagged on file server
+2025-04-16,Botnet,High,Honeypot-Sensor,Global,156,Zombie node synchronizing lateral probing commands
+2025-04-16,DDoS,Medium,VPN-Concentrator,East Asia,53,SYN flood targeting web application frontend load balancers
+2025-04-17,Malware,High,Firewall-IDS,Global,44,Emotet trojan loader payload intercepted by EDR
+2025-04-17,Brute Force,Medium,DNS-Sinkhole,Latin America,20,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-04-17,Ransomware,Medium,Email-Gateway,East Asia,6,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-17,Phishing,High,SIEM-Collector,North America,33,Spear-phishing email with malicious macro attachment
+2025-04-17,Botnet,High,SIEM-Collector,Middle East,165,Zombie node synchronizing lateral probing commands
+2025-04-17,Phishing,Critical,Honeypot-Sensor,North America,123,Executive impersonation and wire transfer spoofing alert
+2025-04-17,Ransomware,Medium,VPN-Concentrator,East Asia,36,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-17,Ransomware,Low,Email-Gateway,Latin America,43,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-18,Brute Force,Critical,Honeypot-Sensor,Global,139,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-18,Ransomware,High,Audit-Log,Latin America,22,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-04-18,Malware,High,VPN-Concentrator,Western Europe,51,Obfuscated PowerShell script executing memory-only injection
+2025-04-19,Phishing,Medium,DNS-Sinkhole,Asia-Pacific,132,Credential harvesting campaign targeting corporate Office365
+2025-04-19,Phishing,Low,Firewall-IDS,Middle East,56,Executive impersonation and wire transfer spoofing alert
+2025-04-19,DDoS,Medium,Cloud-Scrubbing-Center,Europe,258,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-19,Botnet,Low,Honeypot-Sensor,North America,28,Automated distributed vulnerability scan across public subnets
+2025-04-19,Ransomware,Medium,VPN-Concentrator,North America,21,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-19,Phishing,High,Firewall-IDS,Western Europe,180,Spear-phishing email with malicious macro attachment
+2025-04-19,Ransomware,Medium,Firewall-IDS,Middle East,21,Volume shadow copy deletion command flagged on file server
+2025-04-20,SQL Injection,Low,DNS-Sinkhole,Asia-Pacific,90,SQLmap automated enumeration probing public portal parameters
+2025-04-20,Botnet,Low,Audit-Log,Middle East,16,Automated distributed vulnerability scan across public subnets
+2025-04-20,Phishing,High,Email-Gateway,Middle East,31,Executive impersonation and wire transfer spoofing alert
+2025-04-20,Ransomware,Medium,SIEM-Collector,Global,23,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-20,Brute Force,High,SIEM-Collector,Asia-Pacific,85,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-04-21,DDoS,Low,Honeypot-Sensor,North America,260,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-21,Malware,Critical,SIEM-Collector,Europe,9,Cobalt Strike beacon detected on internal workstation
+2025-04-21,Botnet,High,VPN-Concentrator,Europe,160,Zombie node synchronizing lateral probing commands
+2025-04-22,DDoS,Medium,EDR-Agent,Global,339,SYN flood targeting web application frontend load balancers
+2025-04-22,Data Breach,Critical,VPN-Concentrator,Global,27,Privileged service account credential abuse and bulk table export
+2025-04-22,DDoS,High,Audit-Log,Asia-Pacific,313,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-22,DDoS,Medium,DNS-Sinkhole,Europe,222,SYN flood targeting web application frontend load balancers
+2025-04-23,SQL Injection,High,DNS-Sinkhole,North America,40,Automated blind SQL injection payloads against public /api/search endpoint
+2025-04-23,DDoS,Low,Cloud-Scrubbing-Center,Asia-Pacific,63,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-23,DDoS,Low,Email-Gateway,North America,323,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-23,DDoS,Low,SIEM-Collector,Latin America,96,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-23,Ransomware,Critical,DNS-Sinkhole,Western Europe,25,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-23,DDoS,Critical,EDR-Agent,Latin America,172,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-24,DDoS,High,VPN-Concentrator,Europe,281,SYN flood targeting web application frontend load balancers
+2025-04-24,Ransomware,Medium,VPN-Concentrator,East Asia,18,Volume shadow copy deletion command flagged on file server
+2025-04-24,Malware,High,WAF-Gateway,Asia-Pacific,91,Obfuscated PowerShell script executing memory-only injection
+2025-04-24,Data Breach,Low,Cloud-Scrubbing-Center,East Asia,18,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-04-24,Ransomware,Medium,EDR-Agent,Europe,45,Volume shadow copy deletion command flagged on file server
+2025-04-24,Botnet,High,Audit-Log,Europe,63,Automated distributed vulnerability scan across public subnets
+2025-04-25,Phishing,Medium,Audit-Log,Latin America,180,Spear-phishing email with malicious macro attachment
+2025-04-25,Malware,Low,Firewall-IDS,Europe,53,Cobalt Strike beacon detected on internal workstation
+2025-04-25,Brute Force,Medium,Audit-Log,Asia-Pacific,138,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-25,SQL Injection,Critical,WAF-Gateway,Europe,73,SQLmap automated enumeration probing public portal parameters
+2025-04-25,Phishing,High,SIEM-Collector,North America,147,Credential harvesting campaign targeting corporate Office365
+2025-04-25,Malware,Low,VPN-Concentrator,East Asia,61,Emotet trojan loader payload intercepted by EDR
+2025-04-25,Ransomware,Low,Honeypot-Sensor,Asia-Pacific,42,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-25,Botnet,High,VPN-Concentrator,Latin America,46,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-04-25,Botnet,Medium,EDR-Agent,Asia-Pacific,180,Zombie node synchronizing lateral probing commands
+2025-04-26,SQL Injection,Low,DNS-Sinkhole,Asia-Pacific,53,SQLmap automated enumeration probing public portal parameters
+2025-04-26,Data Breach,Medium,Email-Gateway,Middle East,19,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-04-26,Botnet,High,DNS-Sinkhole,Middle East,160,Zombie node synchronizing lateral probing commands
+2025-04-26,Brute Force,Critical,Email-Gateway,Europe,84,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-04-26,SQL Injection,High,EDR-Agent,Western Europe,20,Automated blind SQL injection payloads against public /api/search endpoint
+2025-04-27,DDoS,Critical,Audit-Log,Latin America,237,Volumetric UDP amplification saturation hitting edge border routers
+2025-04-27,Data Breach,Medium,EDR-Agent,Western Europe,45,Privileged service account credential abuse and bulk table export
+2025-04-27,Phishing,Low,EDR-Agent,Global,137,Spear-phishing email with malicious macro attachment
+2025-04-27,Brute Force,Medium,Audit-Log,Global,56,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-27,Phishing,Medium,DNS-Sinkhole,Europe,158,Credential harvesting campaign targeting corporate Office365
+2025-04-27,Ransomware,Medium,Honeypot-Sensor,Middle East,23,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-27,Botnet,Medium,EDR-Agent,Latin America,95,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-04-27,Phishing,Medium,Audit-Log,Western Europe,139,Credential harvesting campaign targeting corporate Office365
+2025-04-28,Data Breach,High,WAF-Gateway,Western Europe,8,Privileged service account credential abuse and bulk table export
+2025-04-28,Ransomware,Low,Firewall-IDS,Asia-Pacific,37,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-04-28,Brute Force,Low,Honeypot-Sensor,Global,180,Kerberoasting and domain controller password brute force probe
+2025-04-29,Brute Force,Medium,WAF-Gateway,Middle East,107,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-29,Phishing,Low,Cloud-Scrubbing-Center,Western Europe,175,Spear-phishing email with malicious macro attachment
+2025-04-29,SQL Injection,Critical,VPN-Concentrator,East Asia,75,UNION-based database extract attempts detected and scrubbed by WAF
+2025-04-29,Ransomware,Medium,Email-Gateway,Latin America,30,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-29,Malware,High,WAF-Gateway,Middle East,51,Obfuscated PowerShell script executing memory-only injection
+2025-04-29,Data Breach,High,Audit-Log,Global,41,Privileged service account credential abuse and bulk table export
+2025-04-29,Brute Force,Critical,DNS-Sinkhole,East Asia,142,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-04-29,Brute Force,Low,DNS-Sinkhole,Middle East,156,RDP remote desktop authentication flood targeting perimeter bastion
+2025-04-29,Ransomware,Medium,VPN-Concentrator,Global,12,Rapid bulk file encryption telemetry and extortion note dropped
+2025-04-29,Data Breach,Critical,Email-Gateway,Latin America,10,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-04-30,Botnet,High,Firewall-IDS,Europe,56,Automated distributed vulnerability scan across public subnets
+2025-04-30,Data Breach,Medium,VPN-Concentrator,Western Europe,15,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-04-30,Botnet,Medium,Firewall-IDS,Europe,27,Automated distributed vulnerability scan across public subnets
+2025-04-30,Phishing,High,EDR-Agent,North America,118,Executive impersonation and wire transfer spoofing alert
+2025-04-30,Brute Force,Low,Cloud-Scrubbing-Center,North America,175,Kerberoasting and domain controller password brute force probe
+2025-04-30,SQL Injection,Medium,Cloud-Scrubbing-Center,Western Europe,64,Automated blind SQL injection payloads against public /api/search endpoint
+2025-04-30,DDoS,High,Cloud-Scrubbing-Center,Asia-Pacific,254,DNS reflection amplification disruption spike on primary nameservers
+2025-05-01,SQL Injection,Critical,DNS-Sinkhole,Latin America,54,SQLmap automated enumeration probing public portal parameters
+2025-05-01,DDoS,Medium,DNS-Sinkhole,North America,308,Volumetric UDP amplification saturation hitting edge border routers
+2025-05-01,SQL Injection,Low,DNS-Sinkhole,Western Europe,65,Automated blind SQL injection payloads against public /api/search endpoint
+2025-05-02,Brute Force,Low,SIEM-Collector,Western Europe,120,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-02,Brute Force,Medium,SIEM-Collector,North America,88,RDP remote desktop authentication flood targeting perimeter bastion
+2025-05-02,SQL Injection,Medium,EDR-Agent,East Asia,79,UNION-based database extract attempts detected and scrubbed by WAF
+2025-05-02,Botnet,Low,DNS-Sinkhole,Latin America,78,Automated distributed vulnerability scan across public subnets
+2025-05-02,Malware,Medium,WAF-Gateway,Asia-Pacific,20,Emotet trojan loader payload intercepted by EDR
+2025-05-02,Brute Force,Critical,VPN-Concentrator,Europe,102,Kerberoasting and domain controller password brute force probe
+2025-05-02,Malware,Medium,Cloud-Scrubbing-Center,Middle East,51,Emotet trojan loader payload intercepted by EDR
+2025-05-03,SQL Injection,Medium,DNS-Sinkhole,East Asia,73,SQLmap automated enumeration probing public portal parameters
+2025-05-03,Brute Force,Low,WAF-Gateway,Asia-Pacific,41,RDP remote desktop authentication flood targeting perimeter bastion
+2025-05-03,Ransomware,Low,Email-Gateway,North America,37,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-03,SQL Injection,Critical,Email-Gateway,Asia-Pacific,48,SQLmap automated enumeration probing public portal parameters
+2025-05-03,Brute Force,Medium,Honeypot-Sensor,Western Europe,17,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-04,Ransomware,Critical,Firewall-IDS,East Asia,1,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-04,DDoS,Medium,Firewall-IDS,Global,183,DNS reflection amplification disruption spike on primary nameservers
+2025-05-04,DDoS,Medium,Cloud-Scrubbing-Center,Middle East,171,Volumetric UDP amplification saturation hitting edge border routers
+2025-05-04,SQL Injection,Medium,Email-Gateway,Western Europe,81,SQLmap automated enumeration probing public portal parameters
+2025-05-04,DDoS,High,Audit-Log,Asia-Pacific,318,Volumetric UDP amplification saturation hitting edge border routers
+2025-05-05,Phishing,Medium,EDR-Agent,Asia-Pacific,167,Credential harvesting campaign targeting corporate Office365
+2025-05-05,SQL Injection,Medium,SIEM-Collector,Asia-Pacific,77,SQLmap automated enumeration probing public portal parameters
+2025-05-05,Ransomware,Critical,Firewall-IDS,Europe,9,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-05,Brute Force,Low,VPN-Concentrator,Asia-Pacific,82,Kerberoasting and domain controller password brute force probe
+2025-05-06,Data Breach,Medium,Firewall-IDS,North America,26,Privileged service account credential abuse and bulk table export
+2025-05-06,Phishing,Medium,VPN-Concentrator,Western Europe,127,Spear-phishing email with malicious macro attachment
+2025-05-06,Ransomware,Low,VPN-Concentrator,Europe,10,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-06,Data Breach,Low,VPN-Concentrator,Global,23,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-05-06,Phishing,Low,Audit-Log,Middle East,36,Credential harvesting campaign targeting corporate Office365
+2025-05-06,Malware,High,SIEM-Collector,Western Europe,73,Emotet trojan loader payload intercepted by EDR
+2025-05-06,Ransomware,Critical,Cloud-Scrubbing-Center,East Asia,7,Volume shadow copy deletion command flagged on file server
+2025-05-06,Ransomware,Critical,VPN-Concentrator,Asia-Pacific,28,Volume shadow copy deletion command flagged on file server
+2025-05-07,DDoS,High,Email-Gateway,Middle East,167,DNS reflection amplification disruption spike on primary nameservers
+2025-05-07,Phishing,Low,Honeypot-Sensor,Middle East,64,Credential harvesting campaign targeting corporate Office365
+2025-05-07,Ransomware,Low,VPN-Concentrator,Asia-Pacific,14,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-07,Ransomware,Medium,Cloud-Scrubbing-Center,Middle East,21,Volume shadow copy deletion command flagged on file server
+2025-05-07,Brute Force,Medium,Email-Gateway,Latin America,87,Kerberoasting and domain controller password brute force probe
+2025-05-07,Ransomware,Medium,Audit-Log,Middle East,44,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-07,SQL Injection,Medium,VPN-Concentrator,Global,64,SQLmap automated enumeration probing public portal parameters
+2025-05-08,Data Breach,Low,Firewall-IDS,Latin America,36,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-05-08,Ransomware,Low,DNS-Sinkhole,Latin America,33,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-08,DDoS,Medium,Cloud-Scrubbing-Center,Global,225,SYN flood targeting web application frontend load balancers
+2025-05-08,Phishing,Medium,VPN-Concentrator,Latin America,70,Executive impersonation and wire transfer spoofing alert
+2025-05-08,Malware,Critical,Honeypot-Sensor,Western Europe,35,Cobalt Strike beacon detected on internal workstation
+2025-05-08,Phishing,Medium,Audit-Log,Latin America,51,Spear-phishing email with malicious macro attachment
+2025-05-08,Data Breach,Low,SIEM-Collector,East Asia,9,Privileged service account credential abuse and bulk table export
+2025-05-09,Phishing,Low,Honeypot-Sensor,Middle East,100,Spear-phishing email with malicious macro attachment
+2025-05-09,SQL Injection,Critical,Honeypot-Sensor,Middle East,73,SQLmap automated enumeration probing public portal parameters
+2025-05-09,DDoS,High,Audit-Log,Asia-Pacific,283,Volumetric UDP amplification saturation hitting edge border routers
+2025-05-09,Data Breach,Medium,Audit-Log,North America,28,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-05-09,Malware,Medium,SIEM-Collector,Asia-Pacific,25,Emotet trojan loader payload intercepted by EDR
+2025-05-10,Botnet,High,Honeypot-Sensor,Latin America,54,Automated distributed vulnerability scan across public subnets
+2025-05-10,Ransomware,High,Audit-Log,Europe,12,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-10,Ransomware,Medium,DNS-Sinkhole,Global,9,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-11,Malware,Critical,Email-Gateway,Western Europe,42,Emotet trojan loader payload intercepted by EDR
+2025-05-11,Data Breach,High,DNS-Sinkhole,Middle East,30,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-05-11,Malware,High,EDR-Agent,Asia-Pacific,85,Cobalt Strike beacon detected on internal workstation
+2025-05-11,Ransomware,Low,Audit-Log,Asia-Pacific,4,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-11,Phishing,Medium,Audit-Log,Asia-Pacific,109,Credential harvesting campaign targeting corporate Office365
+2025-05-11,Phishing,Low,Firewall-IDS,Global,136,Executive impersonation and wire transfer spoofing alert
+2025-05-12,Malware,Low,Cloud-Scrubbing-Center,Europe,81,Obfuscated PowerShell script executing memory-only injection
+2025-05-12,SQL Injection,Medium,SIEM-Collector,Western Europe,72,SQLmap automated enumeration probing public portal parameters
+2025-05-12,Brute Force,Low,Audit-Log,Middle East,64,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-12,Malware,Low,DNS-Sinkhole,North America,40,Obfuscated PowerShell script executing memory-only injection
+2025-05-13,Botnet,Low,Firewall-IDS,Middle East,130,Zombie node synchronizing lateral probing commands
+2025-05-13,Malware,Low,DNS-Sinkhole,Western Europe,76,Cobalt Strike beacon detected on internal workstation
+2025-05-13,Ransomware,Critical,WAF-Gateway,East Asia,34,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-13,Phishing,High,SIEM-Collector,Latin America,88,Credential harvesting campaign targeting corporate Office365
+2025-05-14,Phishing,Medium,WAF-Gateway,Europe,100,Spear-phishing email with malicious macro attachment
+2025-05-14,SQL Injection,Medium,Firewall-IDS,Global,67,UNION-based database extract attempts detected and scrubbed by WAF
+2025-05-14,Phishing,Medium,WAF-Gateway,North America,66,Spear-phishing email with malicious macro attachment
+2025-05-14,Data Breach,High,SIEM-Collector,North America,6,Privileged service account credential abuse and bulk table export
+2025-05-14,Malware,Low,DNS-Sinkhole,East Asia,93,Obfuscated PowerShell script executing memory-only injection
+2025-05-14,Malware,Medium,Email-Gateway,Western Europe,49,Obfuscated PowerShell script executing memory-only injection
+2025-05-14,Botnet,Medium,Honeypot-Sensor,Western Europe,134,Automated distributed vulnerability scan across public subnets
+2025-05-15,DDoS,Medium,Firewall-IDS,East Asia,74,DNS reflection amplification disruption spike on primary nameservers
+2025-05-15,Data Breach,Medium,Honeypot-Sensor,Europe,16,Privileged service account credential abuse and bulk table export
+2025-05-15,Malware,Medium,Firewall-IDS,Europe,88,Emotet trojan loader payload intercepted by EDR
+2025-05-16,DDoS,Critical,EDR-Agent,Latin America,143,SYN flood targeting web application frontend load balancers
+2025-05-16,Ransomware,Critical,Honeypot-Sensor,Global,23,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-16,Data Breach,Medium,DNS-Sinkhole,Europe,45,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-05-16,Ransomware,Low,Firewall-IDS,Asia-Pacific,13,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-16,Botnet,Critical,EDR-Agent,Asia-Pacific,82,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-05-17,Phishing,Medium,WAF-Gateway,Europe,20,Credential harvesting campaign targeting corporate Office365
+2025-05-17,Botnet,Critical,VPN-Concentrator,Latin America,109,Zombie node synchronizing lateral probing commands
+2025-05-17,Data Breach,Critical,VPN-Concentrator,Middle East,1,Privileged service account credential abuse and bulk table export
+2025-05-17,Phishing,High,Email-Gateway,East Asia,105,Credential harvesting campaign targeting corporate Office365
+2025-05-17,Botnet,Medium,Cloud-Scrubbing-Center,Europe,63,Automated distributed vulnerability scan across public subnets
+2025-05-17,SQL Injection,Medium,VPN-Concentrator,North America,84,Automated blind SQL injection payloads against public /api/search endpoint
+2025-05-17,Ransomware,Critical,WAF-Gateway,Latin America,24,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-17,Ransomware,Low,EDR-Agent,Asia-Pacific,9,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-17,SQL Injection,Critical,Cloud-Scrubbing-Center,Latin America,7,SQLmap automated enumeration probing public portal parameters
+2025-05-18,DDoS,Medium,VPN-Concentrator,Middle East,81,Volumetric UDP amplification saturation hitting edge border routers
+2025-05-18,Brute Force,Medium,VPN-Concentrator,Middle East,50,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-18,Brute Force,Medium,SIEM-Collector,Europe,145,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-18,Brute Force,Critical,Firewall-IDS,Asia-Pacific,75,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-18,Brute Force,Low,VPN-Concentrator,Middle East,165,Kerberoasting and domain controller password brute force probe
+2025-05-19,Malware,Medium,Cloud-Scrubbing-Center,East Asia,38,Cobalt Strike beacon detected on internal workstation
+2025-05-19,Botnet,High,SIEM-Collector,Western Europe,90,Zombie node synchronizing lateral probing commands
+2025-05-19,Phishing,Low,SIEM-Collector,Latin America,162,Spear-phishing email with malicious macro attachment
+2025-05-20,DDoS,Medium,SIEM-Collector,East Asia,268,Volumetric UDP amplification saturation hitting edge border routers
+2025-05-20,Brute Force,Medium,Email-Gateway,East Asia,107,RDP remote desktop authentication flood targeting perimeter bastion
+2025-05-20,SQL Injection,Medium,Firewall-IDS,East Asia,21,Automated blind SQL injection payloads against public /api/search endpoint
+2025-05-20,Malware,High,Audit-Log,Latin America,25,Emotet trojan loader payload intercepted by EDR
+2025-05-20,Brute Force,Critical,Firewall-IDS,Europe,30,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-20,Brute Force,High,VPN-Concentrator,Western Europe,176,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-20,Data Breach,Critical,Email-Gateway,Latin America,37,Privileged service account credential abuse and bulk table export
+2025-05-21,SQL Injection,Medium,DNS-Sinkhole,Global,82,Automated blind SQL injection payloads against public /api/search endpoint
+2025-05-21,SQL Injection,High,Honeypot-Sensor,Western Europe,50,UNION-based database extract attempts detected and scrubbed by WAF
+2025-05-22,Malware,High,Honeypot-Sensor,Middle East,87,Emotet trojan loader payload intercepted by EDR
+2025-05-22,Data Breach,Low,Audit-Log,North America,9,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-05-22,SQL Injection,Medium,EDR-Agent,North America,89,Automated blind SQL injection payloads against public /api/search endpoint
+2025-05-22,Phishing,Medium,Audit-Log,Latin America,97,Executive impersonation and wire transfer spoofing alert
+2025-05-22,Phishing,Medium,SIEM-Collector,Middle East,174,Credential harvesting campaign targeting corporate Office365
+2025-05-22,Ransomware,Low,Audit-Log,Asia-Pacific,5,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-22,Ransomware,High,DNS-Sinkhole,Western Europe,37,Volume shadow copy deletion command flagged on file server
+2025-05-23,Botnet,Low,Firewall-IDS,Middle East,158,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-05-23,Malware,High,Audit-Log,Latin America,59,Obfuscated PowerShell script executing memory-only injection
+2025-05-23,Ransomware,Medium,Audit-Log,Asia-Pacific,22,Volume shadow copy deletion command flagged on file server
+2025-05-23,DDoS,Critical,VPN-Concentrator,Latin America,154,DNS reflection amplification disruption spike on primary nameservers
+2025-05-23,Ransomware,Low,Firewall-IDS,Western Europe,1,Volume shadow copy deletion command flagged on file server
+2025-05-23,Brute Force,Medium,Honeypot-Sensor,Western Europe,79,RDP remote desktop authentication flood targeting perimeter bastion
+2025-05-23,SQL Injection,High,WAF-Gateway,Latin America,9,UNION-based database extract attempts detected and scrubbed by WAF
+2025-05-24,SQL Injection,Low,Audit-Log,Asia-Pacific,53,UNION-based database extract attempts detected and scrubbed by WAF
+2025-05-24,Brute Force,Critical,Email-Gateway,Asia-Pacific,60,RDP remote desktop authentication flood targeting perimeter bastion
+2025-05-24,Data Breach,Medium,Cloud-Scrubbing-Center,Asia-Pacific,30,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-05-24,Botnet,Medium,DNS-Sinkhole,Europe,104,Zombie node synchronizing lateral probing commands
+2025-05-24,SQL Injection,Medium,SIEM-Collector,Latin America,82,Automated blind SQL injection payloads against public /api/search endpoint
+2025-05-24,Ransomware,Low,DNS-Sinkhole,East Asia,15,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-25,Brute Force,Medium,Email-Gateway,Asia-Pacific,120,Kerberoasting and domain controller password brute force probe
+2025-05-25,Malware,Medium,Honeypot-Sensor,Middle East,21,Emotet trojan loader payload intercepted by EDR
+2025-05-25,DDoS,Medium,Honeypot-Sensor,Middle East,204,SYN flood targeting web application frontend load balancers
+2025-05-25,Brute Force,Low,EDR-Agent,East Asia,173,Kerberoasting and domain controller password brute force probe
+2025-05-25,Botnet,Critical,DNS-Sinkhole,Latin America,120,Zombie node synchronizing lateral probing commands
+2025-05-26,Botnet,Low,EDR-Agent,Middle East,154,Zombie node synchronizing lateral probing commands
+2025-05-26,SQL Injection,Medium,Firewall-IDS,Europe,69,SQLmap automated enumeration probing public portal parameters
+2025-05-26,Botnet,Low,SIEM-Collector,Latin America,138,Automated distributed vulnerability scan across public subnets
+2025-05-26,Brute Force,High,Cloud-Scrubbing-Center,Global,128,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-05-26,SQL Injection,Low,VPN-Concentrator,Europe,23,SQLmap automated enumeration probing public portal parameters
+2025-05-26,Malware,High,VPN-Concentrator,Asia-Pacific,67,Obfuscated PowerShell script executing memory-only injection
+2025-05-27,Brute Force,High,Firewall-IDS,Asia-Pacific,83,RDP remote desktop authentication flood targeting perimeter bastion
+2025-05-27,Data Breach,High,DNS-Sinkhole,East Asia,11,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-05-27,Ransomware,High,DNS-Sinkhole,Global,10,Rapid bulk file encryption telemetry and extortion note dropped
+2025-05-27,SQL Injection,Medium,SIEM-Collector,Latin America,19,Automated blind SQL injection payloads against public /api/search endpoint
+2025-05-27,Botnet,High,Email-Gateway,North America,45,Automated distributed vulnerability scan across public subnets
+2025-05-27,Malware,Medium,WAF-Gateway,Asia-Pacific,33,Obfuscated PowerShell script executing memory-only injection
+2025-05-27,SQL Injection,Medium,VPN-Concentrator,Europe,93,SQLmap automated enumeration probing public portal parameters
+2025-05-28,Ransomware,High,EDR-Agent,Latin America,29,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-28,Data Breach,High,DNS-Sinkhole,Europe,11,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-05-28,Data Breach,Medium,DNS-Sinkhole,Europe,35,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-05-28,SQL Injection,Low,Firewall-IDS,Latin America,57,UNION-based database extract attempts detected and scrubbed by WAF
+2025-05-28,Botnet,Medium,VPN-Concentrator,East Asia,125,Automated distributed vulnerability scan across public subnets
+2025-05-29,Phishing,Low,SIEM-Collector,Global,109,Spear-phishing email with malicious macro attachment
+2025-05-29,Malware,High,VPN-Concentrator,Global,13,Obfuscated PowerShell script executing memory-only injection
+2025-05-30,Ransomware,High,SIEM-Collector,North America,24,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-05-30,Phishing,Low,VPN-Concentrator,Western Europe,88,Executive impersonation and wire transfer spoofing alert
+2025-05-30,Data Breach,High,Email-Gateway,Latin America,34,Privileged service account credential abuse and bulk table export
+2025-05-30,Ransomware,Medium,Cloud-Scrubbing-Center,Europe,7,Volume shadow copy deletion command flagged on file server
+2025-05-30,Brute Force,Critical,SIEM-Collector,East Asia,48,Kerberoasting and domain controller password brute force probe
+2025-05-30,Brute Force,High,Firewall-IDS,Asia-Pacific,41,RDP remote desktop authentication flood targeting perimeter bastion
+2025-05-30,Phishing,Medium,WAF-Gateway,Middle East,66,Executive impersonation and wire transfer spoofing alert
+2025-05-30,Malware,Medium,Email-Gateway,Europe,92,Emotet trojan loader payload intercepted by EDR
+2025-05-30,Malware,Medium,EDR-Agent,Middle East,73,Emotet trojan loader payload intercepted by EDR
+2025-05-30,Data Breach,Medium,Firewall-IDS,East Asia,12,Privileged service account credential abuse and bulk table export
+2025-05-31,DDoS,Low,Honeypot-Sensor,Latin America,346,Volumetric UDP amplification saturation hitting edge border routers
+2025-05-31,Phishing,High,Firewall-IDS,East Asia,102,Spear-phishing email with malicious macro attachment
+2025-05-31,DDoS,Medium,Cloud-Scrubbing-Center,Middle East,27,Volumetric UDP amplification saturation hitting edge border routers
+2025-05-31,Data Breach,High,EDR-Agent,Asia-Pacific,23,Privileged service account credential abuse and bulk table export
+2025-05-31,Ransomware,High,VPN-Concentrator,Middle East,13,Rapid bulk file encryption telemetry and extortion note dropped
+2025-06-01,SQL Injection,High,EDR-Agent,Middle East,62,Automated blind SQL injection payloads against public /api/search endpoint
+2025-06-01,Botnet,Low,Honeypot-Sensor,Western Europe,124,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-06-01,Data Breach,Low,DNS-Sinkhole,Global,40,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-01,Data Breach,Medium,Audit-Log,North America,43,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-06-02,SQL Injection,Medium,VPN-Concentrator,Asia-Pacific,44,UNION-based database extract attempts detected and scrubbed by WAF
+2025-06-02,Malware,High,SIEM-Collector,Latin America,51,Cobalt Strike beacon detected on internal workstation
+2025-06-02,Brute Force,Medium,SIEM-Collector,Middle East,161,RDP remote desktop authentication flood targeting perimeter bastion
+2025-06-02,Data Breach,Medium,Cloud-Scrubbing-Center,Europe,37,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-02,SQL Injection,Low,SIEM-Collector,Western Europe,67,Automated blind SQL injection payloads against public /api/search endpoint
+2025-06-02,Phishing,Low,Audit-Log,North America,35,Spear-phishing email with malicious macro attachment
+2025-06-03,DDoS,Medium,WAF-Gateway,Global,142,DNS reflection amplification disruption spike on primary nameservers
+2025-06-04,Botnet,Low,VPN-Concentrator,Global,156,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-06-04,Phishing,High,Honeypot-Sensor,Europe,111,Credential harvesting campaign targeting corporate Office365
+2025-06-04,Data Breach,Medium,Email-Gateway,Asia-Pacific,38,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-06-04,DDoS,Medium,Firewall-IDS,East Asia,183,SYN flood targeting web application frontend load balancers
+2025-06-05,DDoS,Critical,Email-Gateway,Middle East,224,DNS reflection amplification disruption spike on primary nameservers
+2025-06-05,Botnet,High,Firewall-IDS,Europe,18,Zombie node synchronizing lateral probing commands
+2025-06-05,Botnet,Medium,DNS-Sinkhole,Global,132,Automated distributed vulnerability scan across public subnets
+2025-06-05,Brute Force,Critical,SIEM-Collector,Global,98,Kerberoasting and domain controller password brute force probe
+2025-06-05,DDoS,Medium,Audit-Log,Middle East,90,DNS reflection amplification disruption spike on primary nameservers
+2025-06-05,Botnet,High,VPN-Concentrator,East Asia,116,Zombie node synchronizing lateral probing commands
+2025-06-05,DDoS,High,SIEM-Collector,North America,142,SYN flood targeting web application frontend load balancers
+2025-06-05,Phishing,High,Email-Gateway,Middle East,156,Spear-phishing email with malicious macro attachment
+2025-06-05,Ransomware,High,VPN-Concentrator,Latin America,16,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-06-06,SQL Injection,Medium,SIEM-Collector,East Asia,57,UNION-based database extract attempts detected and scrubbed by WAF
+2025-06-06,Malware,High,EDR-Agent,Europe,68,Obfuscated PowerShell script executing memory-only injection
+2025-06-06,Phishing,Medium,VPN-Concentrator,Western Europe,25,Credential harvesting campaign targeting corporate Office365
+2025-06-07,Phishing,Medium,Firewall-IDS,East Asia,55,Credential harvesting campaign targeting corporate Office365
+2025-06-07,Phishing,High,Honeypot-Sensor,Europe,38,Spear-phishing email with malicious macro attachment
+2025-06-07,Malware,High,DNS-Sinkhole,Global,91,Emotet trojan loader payload intercepted by EDR
+2025-06-07,Botnet,Medium,Honeypot-Sensor,Western Europe,159,Automated distributed vulnerability scan across public subnets
+2025-06-08,DDoS,Medium,Email-Gateway,Middle East,47,Volumetric UDP amplification saturation hitting edge border routers
+2025-06-08,Phishing,Medium,Cloud-Scrubbing-Center,North America,43,Spear-phishing email with malicious macro attachment
+2025-06-08,Phishing,Medium,WAF-Gateway,Europe,114,Executive impersonation and wire transfer spoofing alert
+2025-06-08,Data Breach,High,Audit-Log,Middle East,32,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-09,Botnet,Low,Email-Gateway,Europe,18,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-06-09,Malware,High,Honeypot-Sensor,Western Europe,64,Cobalt Strike beacon detected on internal workstation
+2025-06-09,Botnet,Low,Cloud-Scrubbing-Center,Western Europe,167,Zombie node synchronizing lateral probing commands
+2025-06-09,Phishing,Medium,SIEM-Collector,North America,61,Spear-phishing email with malicious macro attachment
+2025-06-10,Malware,Medium,Firewall-IDS,Global,45,Obfuscated PowerShell script executing memory-only injection
+2025-06-10,SQL Injection,Medium,EDR-Agent,Asia-Pacific,36,SQLmap automated enumeration probing public portal parameters
+2025-06-10,Ransomware,Medium,DNS-Sinkhole,Europe,41,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-06-10,Botnet,Medium,SIEM-Collector,Latin America,84,Automated distributed vulnerability scan across public subnets
+2025-06-10,Phishing,High,EDR-Agent,East Asia,100,Executive impersonation and wire transfer spoofing alert
+2025-06-10,Ransomware,Low,Cloud-Scrubbing-Center,Global,27,Rapid bulk file encryption telemetry and extortion note dropped
+2025-06-10,Phishing,Low,WAF-Gateway,Europe,142,Executive impersonation and wire transfer spoofing alert
+2025-06-11,SQL Injection,Medium,WAF-Gateway,Western Europe,40,Automated blind SQL injection payloads against public /api/search endpoint
+2025-06-11,Malware,High,Honeypot-Sensor,Middle East,83,Cobalt Strike beacon detected on internal workstation
+2025-06-11,DDoS,Low,WAF-Gateway,Global,56,DNS reflection amplification disruption spike on primary nameservers
+2025-06-11,DDoS,High,DNS-Sinkhole,Western Europe,224,Volumetric UDP amplification saturation hitting edge border routers
+2025-06-11,Data Breach,High,Audit-Log,Latin America,19,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-11,Malware,Medium,Audit-Log,Middle East,59,Obfuscated PowerShell script executing memory-only injection
+2025-06-11,Ransomware,High,WAF-Gateway,Western Europe,6,Volume shadow copy deletion command flagged on file server
+2025-06-12,Malware,High,VPN-Concentrator,East Asia,16,Cobalt Strike beacon detected on internal workstation
+2025-06-12,Botnet,High,Cloud-Scrubbing-Center,North America,156,Zombie node synchronizing lateral probing commands
+2025-06-12,Ransomware,Medium,VPN-Concentrator,East Asia,1,Volume shadow copy deletion command flagged on file server
+2025-06-12,Phishing,Medium,Honeypot-Sensor,Europe,146,Credential harvesting campaign targeting corporate Office365
+2025-06-13,Phishing,High,Email-Gateway,Latin America,50,Executive impersonation and wire transfer spoofing alert
+2025-06-13,Botnet,Low,Email-Gateway,Europe,48,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-06-13,Phishing,High,SIEM-Collector,Asia-Pacific,99,Spear-phishing email with malicious macro attachment
+2025-06-13,Ransomware,High,WAF-Gateway,Global,40,Volume shadow copy deletion command flagged on file server
+2025-06-13,Botnet,Critical,Email-Gateway,Western Europe,170,Automated distributed vulnerability scan across public subnets
+2025-06-14,Ransomware,High,Cloud-Scrubbing-Center,East Asia,27,Volume shadow copy deletion command flagged on file server
+2025-06-14,Data Breach,High,WAF-Gateway,Europe,21,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-06-14,Botnet,High,Firewall-IDS,Global,137,Automated distributed vulnerability scan across public subnets
+2025-06-15,Botnet,Medium,WAF-Gateway,Global,84,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-06-15,Phishing,Medium,SIEM-Collector,Asia-Pacific,132,Executive impersonation and wire transfer spoofing alert
+2025-06-15,Brute Force,High,Firewall-IDS,Middle East,90,RDP remote desktop authentication flood targeting perimeter bastion
+2025-06-15,SQL Injection,Medium,VPN-Concentrator,Middle East,16,UNION-based database extract attempts detected and scrubbed by WAF
+2025-06-15,Data Breach,Low,VPN-Concentrator,Global,30,Privileged service account credential abuse and bulk table export
+2025-06-15,Data Breach,Critical,SIEM-Collector,East Asia,8,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-15,Phishing,Low,Firewall-IDS,North America,52,Executive impersonation and wire transfer spoofing alert
+2025-06-16,Ransomware,High,Cloud-Scrubbing-Center,Western Europe,31,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-06-16,Data Breach,Critical,Firewall-IDS,Global,7,Privileged service account credential abuse and bulk table export
+2025-06-16,SQL Injection,High,Cloud-Scrubbing-Center,Western Europe,79,SQLmap automated enumeration probing public portal parameters
+2025-06-16,Data Breach,High,VPN-Concentrator,Europe,16,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-17,Phishing,Medium,DNS-Sinkhole,North America,93,Executive impersonation and wire transfer spoofing alert
+2025-06-17,Botnet,Low,Honeypot-Sensor,Latin America,29,Zombie node synchronizing lateral probing commands
+2025-06-17,Malware,Medium,WAF-Gateway,Global,76,Obfuscated PowerShell script executing memory-only injection
+2025-06-17,DDoS,Medium,DNS-Sinkhole,Global,158,Volumetric UDP amplification saturation hitting edge border routers
+2025-06-17,DDoS,Medium,Email-Gateway,East Asia,193,SYN flood targeting web application frontend load balancers
+2025-06-17,Botnet,High,Audit-Log,North America,59,Zombie node synchronizing lateral probing commands
+2025-06-17,Botnet,Low,Firewall-IDS,North America,116,Zombie node synchronizing lateral probing commands
+2025-06-17,Brute Force,Medium,Honeypot-Sensor,Europe,62,RDP remote desktop authentication flood targeting perimeter bastion
+2025-06-17,Data Breach,Critical,Honeypot-Sensor,Asia-Pacific,38,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-17,Data Breach,Medium,Email-Gateway,Western Europe,11,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-06-18,Botnet,Low,WAF-Gateway,Western Europe,88,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-06-18,SQL Injection,Low,Audit-Log,North America,77,SQLmap automated enumeration probing public portal parameters
+2025-06-18,Brute Force,Critical,Cloud-Scrubbing-Center,North America,68,Kerberoasting and domain controller password brute force probe
+2025-06-18,Data Breach,Medium,EDR-Agent,North America,16,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-06-18,Brute Force,Medium,VPN-Concentrator,Global,100,Kerberoasting and domain controller password brute force probe
+2025-06-18,Phishing,High,DNS-Sinkhole,East Asia,109,Credential harvesting campaign targeting corporate Office365
+2025-06-18,Phishing,Medium,SIEM-Collector,Global,42,Credential harvesting campaign targeting corporate Office365
+2025-06-18,Brute Force,Critical,WAF-Gateway,North America,156,RDP remote desktop authentication flood targeting perimeter bastion
+2025-06-18,SQL Injection,Medium,DNS-Sinkhole,East Asia,82,SQLmap automated enumeration probing public portal parameters
+2025-06-19,Botnet,Medium,DNS-Sinkhole,Global,118,Zombie node synchronizing lateral probing commands
+2025-06-19,Data Breach,Critical,SIEM-Collector,East Asia,45,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-06-19,Data Breach,High,Honeypot-Sensor,Global,5,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-06-20,Ransomware,High,Honeypot-Sensor,Middle East,28,Volume shadow copy deletion command flagged on file server
+2025-06-20,Malware,Low,DNS-Sinkhole,Global,6,Cobalt Strike beacon detected on internal workstation
+2025-06-20,Malware,High,Honeypot-Sensor,East Asia,80,Cobalt Strike beacon detected on internal workstation
+2025-06-21,Brute Force,Critical,VPN-Concentrator,Global,78,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-06-21,SQL Injection,Low,DNS-Sinkhole,Asia-Pacific,90,SQLmap automated enumeration probing public portal parameters
+2025-06-21,Malware,Medium,WAF-Gateway,East Asia,7,Emotet trojan loader payload intercepted by EDR
+2025-06-21,Malware,Critical,VPN-Concentrator,Asia-Pacific,16,Obfuscated PowerShell script executing memory-only injection
+2025-06-21,SQL Injection,Medium,VPN-Concentrator,North America,10,SQLmap automated enumeration probing public portal parameters
+2025-06-21,DDoS,Low,VPN-Concentrator,Western Europe,186,SYN flood targeting web application frontend load balancers
+2025-06-21,SQL Injection,Medium,Audit-Log,East Asia,80,Automated blind SQL injection payloads against public /api/search endpoint
+2025-06-22,Data Breach,Low,Firewall-IDS,East Asia,2,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-22,SQL Injection,Low,DNS-Sinkhole,North America,38,SQLmap automated enumeration probing public portal parameters
+2025-06-22,Malware,Medium,EDR-Agent,East Asia,55,Cobalt Strike beacon detected on internal workstation
+2025-06-22,Phishing,Medium,WAF-Gateway,Latin America,163,Credential harvesting campaign targeting corporate Office365
+2025-06-22,Phishing,Low,WAF-Gateway,East Asia,127,Credential harvesting campaign targeting corporate Office365
+2025-06-23,Ransomware,Critical,Cloud-Scrubbing-Center,East Asia,7,Volume shadow copy deletion command flagged on file server
+2025-06-23,DDoS,High,Cloud-Scrubbing-Center,Latin America,70,Volumetric UDP amplification saturation hitting edge border routers
+2025-06-23,Ransomware,Low,Firewall-IDS,North America,19,Rapid bulk file encryption telemetry and extortion note dropped
+2025-06-23,Phishing,High,Cloud-Scrubbing-Center,Europe,99,Credential harvesting campaign targeting corporate Office365
+2025-06-23,Brute Force,Medium,WAF-Gateway,North America,32,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-06-23,Ransomware,Low,Honeypot-Sensor,North America,1,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-06-23,Brute Force,Low,VPN-Concentrator,Europe,116,RDP remote desktop authentication flood targeting perimeter bastion
+2025-06-23,Phishing,Low,Email-Gateway,Global,107,Spear-phishing email with malicious macro attachment
+2025-06-24,SQL Injection,Low,Honeypot-Sensor,Asia-Pacific,21,UNION-based database extract attempts detected and scrubbed by WAF
+2025-06-24,Malware,Medium,Audit-Log,Western Europe,72,Emotet trojan loader payload intercepted by EDR
+2025-06-24,Brute Force,Medium,DNS-Sinkhole,Western Europe,180,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-06-24,Data Breach,Critical,Firewall-IDS,North America,15,Privileged service account credential abuse and bulk table export
+2025-06-24,Malware,Low,Email-Gateway,Middle East,58,Emotet trojan loader payload intercepted by EDR
+2025-06-24,Data Breach,Critical,EDR-Agent,North America,38,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-24,Botnet,Medium,SIEM-Collector,East Asia,103,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-06-24,DDoS,Critical,Firewall-IDS,Middle East,183,DNS reflection amplification disruption spike on primary nameservers
+2025-06-24,Brute Force,Medium,Cloud-Scrubbing-Center,East Asia,179,RDP remote desktop authentication flood targeting perimeter bastion
+2025-06-25,Botnet,Medium,SIEM-Collector,North America,38,Zombie node synchronizing lateral probing commands
+2025-06-25,SQL Injection,Low,Firewall-IDS,Middle East,8,UNION-based database extract attempts detected and scrubbed by WAF
+2025-06-25,Brute Force,Medium,Honeypot-Sensor,Asia-Pacific,125,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-06-25,Malware,Medium,DNS-Sinkhole,Global,7,Emotet trojan loader payload intercepted by EDR
+2025-06-25,Phishing,Low,SIEM-Collector,Latin America,173,Spear-phishing email with malicious macro attachment
+2025-06-25,Brute Force,Medium,VPN-Concentrator,Europe,120,RDP remote desktop authentication flood targeting perimeter bastion
+2025-06-25,DDoS,Low,EDR-Agent,Asia-Pacific,83,DNS reflection amplification disruption spike on primary nameservers
+2025-06-25,Malware,Low,EDR-Agent,Europe,60,Cobalt Strike beacon detected on internal workstation
+2025-06-25,Botnet,High,VPN-Concentrator,Western Europe,132,Mirai-variant IoT coordination traffic beaconing to C2 IP
+2025-06-26,Brute Force,Low,WAF-Gateway,East Asia,160,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-06-26,Ransomware,Medium,EDR-Agent,Middle East,31,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-06-26,Data Breach,Medium,WAF-Gateway,Europe,19,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-26,Botnet,High,SIEM-Collector,Middle East,144,Zombie node synchronizing lateral probing commands
+2025-06-26,Phishing,Medium,SIEM-Collector,Latin America,28,Executive impersonation and wire transfer spoofing alert
+2025-06-26,DDoS,Medium,Email-Gateway,Global,70,DNS reflection amplification disruption spike on primary nameservers
+2025-06-26,Brute Force,Medium,EDR-Agent,Latin America,55,RDP remote desktop authentication flood targeting perimeter bastion
+2025-06-26,Phishing,High,SIEM-Collector,Global,20,Spear-phishing email with malicious macro attachment
+2025-06-27,Ransomware,Critical,Firewall-IDS,Global,19,Volume shadow copy deletion command flagged on file server
+2025-06-27,Botnet,High,Audit-Log,Middle East,30,Zombie node synchronizing lateral probing commands
+2025-06-27,Data Breach,Critical,Email-Gateway,Global,25,Privileged service account credential abuse and bulk table export
+2025-06-27,SQL Injection,Critical,Honeypot-Sensor,Middle East,15,SQLmap automated enumeration probing public portal parameters
+2025-06-28,Data Breach,Low,Email-Gateway,Europe,30,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-28,Malware,Medium,Audit-Log,Global,63,Obfuscated PowerShell script executing memory-only injection
+2025-06-28,Data Breach,Medium,WAF-Gateway,North America,44,Anomalous high-volume database exfiltration to unauthorized cloud bucket
+2025-06-28,Malware,Critical,DNS-Sinkhole,Asia-Pacific,66,Cobalt Strike beacon detected on internal workstation
+2025-06-28,Malware,Medium,SIEM-Collector,Western Europe,34,Cobalt Strike beacon detected on internal workstation
+2025-06-28,Ransomware,Low,VPN-Concentrator,East Asia,23,BlackCat/ALPHV lateral movement and privilege escalation attempt
+2025-06-29,Brute Force,High,Honeypot-Sensor,Latin America,46,High-frequency SSH credential stuffing scan from anomalous IP pool
+2025-06-29,SQL Injection,Medium,Firewall-IDS,Asia-Pacific,77,SQLmap automated enumeration probing public portal parameters
+2025-06-29,Ransomware,High,EDR-Agent,Europe,19,Volume shadow copy deletion command flagged on file server
+2025-06-29,Malware,Medium,SIEM-Collector,North America,78,Emotet trojan loader payload intercepted by EDR
+2025-06-29,SQL Injection,Critical,EDR-Agent,Middle East,92,UNION-based database extract attempts detected and scrubbed by WAF
+2025-06-29,Ransomware,High,VPN-Concentrator,Latin America,13,Rapid bulk file encryption telemetry and extortion note dropped
+2025-06-29,Ransomware,Medium,DNS-Sinkhole,East Asia,25,Rapid bulk file encryption telemetry and extortion note dropped
+2025-06-29,Ransomware,Medium,EDR-Agent,Asia-Pacific,2,Rapid bulk file encryption telemetry and extortion note dropped
+2025-06-30,Data Breach,Medium,Honeypot-Sensor,East Asia,1,Privileged service account credential abuse and bulk table export
+2025-06-30,Data Breach,Medium,SIEM-Collector,Global,13,DLP agent alert: Unencrypted customer records detected traversing egress gateway
+2025-06-30,Ransomware,Critical,Honeypot-Sensor,Global,19,Rapid bulk file encryption telemetry and extortion note dropped
+2025-06-30,Data Breach,Low,SIEM-Collector,North America,3,Privileged service account credential abuse and bulk table export
+2025-06-30,Malware,Medium,Cloud-Scrubbing-Center,Western Europe,58,Cobalt Strike beacon detected on internal workstation
+2025-06-30,SQL Injection,Medium,Honeypot-Sensor,Middle East,41,Automated blind SQL injection payloads against public /api/search endpoint

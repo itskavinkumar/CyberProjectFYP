@@ -1,0 +1,9 @@
+{
+  "mae": 13.661,
+  "rmse": 19.4158,
+  "mape": 20.95,
+  "r2_score": 0.566,
+  "residual_std": 19.37,
+  "mean_actual": 72.45,
+  "mean_predicted": 73.78
+}
